@@ -1,0 +1,24 @@
+/*设置328的高度*/
+.h328{
+    height: 328px;
+}
+.M_MessageBoard{
+    margin-top: 40px;
+}
+.M_showMessage{
+    width:400px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.M_submit{
+    padding-left: 200px;
+}
+.M_form2{
+    margin-top: 20px
+}
+/*
+.M_showMessage:hover{
+    text-overflow:inherit;
+    overflow:visible;
+}*/
