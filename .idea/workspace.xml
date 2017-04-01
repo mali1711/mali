@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284afcce-d4cb-4c42-83be-ef8a3a626557" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mali/Home/View/Index/index.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/Mali/Home/View/Index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Home/View/Layout/nav.html" afterPath="$PROJECT_DIR$/Mali/Home/View/Layout/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Admin/View/Layout/1.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mali/Admin/View/Layout/base.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/21a4ed60f77ffeb2ceab35d5752f1e5a.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/21a4ed60f77ffeb2ceab35d5752f1e5a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/18b8057c4e6010b976ad737d0518e20f.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/18b8057c4e6010b976ad737d0518e20f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/ba3c65c8058603bb0bae900e6b504aeb.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/ba3c65c8058603bb0bae900e6b504aeb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/c3a4e32cdcf58eb287b2e091e24b0310.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/c3a4e32cdcf58eb287b2e091e24b0310.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/dc0c0ea57925013afd5e045fcc5fc724.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Home/dc0c0ea57925013afd5e045fcc5fc724.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_01.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_01.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_01.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_01.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_01.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_01.log" />
     </list>
     <ignored path="mali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,28 +30,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="275">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Home/View/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3710">
-              <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/Model/index.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -60,8 +50,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Home/View/Layout/Layout.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="350" column="93" selection-start-line="350" selection-start-column="90" selection-end-line="350" selection-end-column="93" />
+              <folding>
+                <element signature="e#911#916#0" expanded="true" />
+                <element signature="e#5748#5754#1" expanded="true" />
+                <element signature="e#5914#5920#1" expanded="true" />
+                <element signature="e#6080#6086#1" expanded="true" />
+                <element signature="e#6247#6253#1" expanded="true" />
+                <element signature="e#6697#6703#0" expanded="true" />
+                <element signature="e#6949#6955#0" expanded="true" />
+                <element signature="e#7199#7205#0" expanded="true" />
+                <element signature="e#24691#24697#0" expanded="true" />
+                <element signature="e#24752#24758#0" expanded="true" />
+                <element signature="e#25682#25690#0" expanded="true" />
+                <element signature="e#27752#27760#0" expanded="true" />
+                <element signature="e#28811#28819#0" expanded="true" />
+                <element signature="e#29869#29877#0" expanded="true" />
+                <element signature="e#30423#30429#0" expanded="true" />
+                <element signature="e#30485#30491#0" expanded="true" />
+                <element signature="e#32419#32424#0" expanded="true" />
+                <element signature="e#34057#34062#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#15209#15214#0" expanded="true" />
+                <element signature="e#18520#18525#0" expanded="true" />
+                <element signature="e#19694#19699#0" expanded="true" />
+                <element signature="e#19968#19973#0" expanded="true" />
+                <element signature="e#23065#23070#0" expanded="true" />
+                <element signature="e#26296#26302#0" expanded="true" />
+                <marker date="1491032304850" expanded="true" signature="28184:28318" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/invoice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="665" column="24" selection-start-line="665" selection-start-column="24" selection-end-line="665" selection-end-column="82" />
+              <folding>
+                <marker date="1491028248244" expanded="true" signature="25924:26032" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="treeview.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/treeview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="883" selection-end-column="0" />
+              <folding>
+                <marker date="1491028248273" expanded="true" signature="21535:21643" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -70,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Home/View/Layout/nav.html">
+      <file leaf-file-name="UsersModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Home/Model/UsersModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,14 +148,21 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mali/Admin/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="200">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +172,9 @@
       <list>
         <option value="$PROJECT_DIR$/Mali/Home/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Mali/Home/View/Layout/nav.html" />
+        <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/1.html" />
+        <option value="$PROJECT_DIR$/Mali/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
       </list>
     </option>
   </component>
@@ -111,8 +186,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="9" />
+    <option name="x" value="43" />
+    <option name="y" value="-17" />
     <option name="width" value="1386" />
     <option name="height" value="713" />
   </component>
@@ -169,7 +244,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mali" />
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Style_Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -184,32 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mali" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mali" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mali" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mali" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,6 +295,80 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,6 +412,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Conf" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -284,9 +447,47 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -300,15 +501,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491030365166</updated>
-      <workItem from="1491030370567" duration="883000" />
+      <workItem from="1491030370567" duration="2540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="883000" />
+    <option name="totallyTimeSpent" value="2540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="9" width="1386" height="713" extended-state="1" />
+    <frame x="43" y="-17" width="1386" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20948905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -370,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/Model/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -394,11 +587,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Home/Model/UsersModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="275">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/treeview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="883" selection-end-column="0" />
+          <folding>
+            <marker date="1491028248273" expanded="true" signature="21535:21643" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="669" column="32" selection-start-line="669" selection-start-column="20" selection-end-line="669" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1491031793852" expanded="true" signature="31252:31363" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/invoice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="665" column="24" selection-start-line="665" selection-start-column="24" selection-end-line="665" selection-end-column="82" />
+          <folding>
+            <marker date="1491028248244" expanded="true" signature="25924:26032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="350" column="93" selection-start-line="350" selection-start-column="90" selection-end-line="350" selection-end-column="93" />
+          <folding>
+            <element signature="e#911#916#0" expanded="true" />
+            <element signature="e#5748#5754#1" expanded="true" />
+            <element signature="e#5914#5920#1" expanded="true" />
+            <element signature="e#6080#6086#1" expanded="true" />
+            <element signature="e#6247#6253#1" expanded="true" />
+            <element signature="e#6697#6703#0" expanded="true" />
+            <element signature="e#6949#6955#0" expanded="true" />
+            <element signature="e#7199#7205#0" expanded="true" />
+            <element signature="e#24691#24697#0" expanded="true" />
+            <element signature="e#24752#24758#0" expanded="true" />
+            <element signature="e#25682#25690#0" expanded="true" />
+            <element signature="e#27752#27760#0" expanded="true" />
+            <element signature="e#28811#28819#0" expanded="true" />
+            <element signature="e#29869#29877#0" expanded="true" />
+            <element signature="e#30423#30429#0" expanded="true" />
+            <element signature="e#30485#30491#0" expanded="true" />
+            <element signature="e#32419#32424#0" expanded="true" />
+            <element signature="e#34057#34062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#15209#15214#0" expanded="true" />
+            <element signature="e#18520#18525#0" expanded="true" />
+            <element signature="e#19694#19699#0" expanded="true" />
+            <element signature="e#19968#19973#0" expanded="true" />
+            <element signature="e#23065#23070#0" expanded="true" />
+            <element signature="e#26296#26302#0" expanded="true" />
+            <marker date="1491032304850" expanded="true" signature="28184:28318" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

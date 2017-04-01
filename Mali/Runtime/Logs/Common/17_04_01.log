@@ -40,3 +40,279 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Assets
 
+[ 2017-04-01T15:24:50+08:00 ] 127.0.0.1 /www/mali/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-04-01T15:24:54+08:00 ] 127.0.0.1 /www/mali/index.php/typography.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Typography
+
+[ 2017-04-01T15:25:08+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:27:02+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:27:54+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:25+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:26+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:26+08:00 ] 127.0.0.1 /www/mali/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace-fonts.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/fuelux/data/fuelux.tree-sampledata.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/fuelux/fuelux.tree.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:28:44+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace-fonts.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/fuelux/data/fuelux.tree-sampledata.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/fuelux/fuelux.tree.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:31:24+08:00 ] 127.0.0.1 /www/mali/index.php/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-04-01T15:36:38+08:00 ] 127.0.0.1 /www/mali/index.php/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-01T15:36:55+08:00 ] 127.0.0.1 /www/mali/index.php/elements.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Elements
+
