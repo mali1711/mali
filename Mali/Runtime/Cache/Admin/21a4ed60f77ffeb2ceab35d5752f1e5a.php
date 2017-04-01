@@ -9,40 +9,40 @@
 
     <!-- basic styles -->
 
-    <link href="/TP/Public/Style_Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/font-awesome.min.css" />
+    <link href="/www/mali/Public/Style_Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/font-awesome.min.css" />
 
     <!--[if IE 7]>
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/font-awesome-ie7.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/font-awesome-ie7.min.css" />
     <![endif]-->
 
     <!-- page specific plugin styles -->
 
     <!-- fonts -->
 
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/ace-fonts.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-fonts.css" />
 
     <!-- ace styles -->
 
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/ace.min.css" />
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/ace-rtl.min.css" />
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-skins.min.css" />
 
     <!--[if lte IE 8]>
-    <link rel="stylesheet" href="/TP/Public/Style_Admin/assets/css/ace-ie.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-ie.min.css" />
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
 
-    <script src="/TP/Public/Style_Admin/assets/js/ace-extra.min.js"></script>
+    <script src="/www/mali/Public/Style_Admin/assets/js/ace-extra.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
     <!--[if lt IE 9]>
-    <script src="/TP/Public/Style_Admin/assets/js/html5shiv.js"></script>
-    <script src="/TP/Public/Style_Admin/assets/js/respond.min.js"></script>
+    <script src="/www/mali/Public/Style_Admin/assets/js/html5shiv.js"></script>
+    <script src="/www/mali/Public/Style_Admin/assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -215,7 +215,7 @@
 
                         <li>
                             <a href="#">
-                                <img src="/TP/Public/Style_Admin/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+                                <img src="/www/mali/Public/Style_Admin/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Alex:</span>
@@ -232,7 +232,7 @@
 
                         <li>
                             <a href="#">
-                                <img src="/TP/Public/Style_Admin/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+                                <img src="/www/mali/Public/Style_Admin/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Susan:</span>
@@ -249,7 +249,7 @@
 
                         <li>
                             <a href="#">
-                                <img src="/TP/Public/Style_Admin/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+                                <img src="/www/mali/Public/Style_Admin/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Bob:</span>
@@ -275,7 +275,7 @@
 
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="/TP/Public/Style_Admin/assets/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="/www/mali/Public/Style_Admin/assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Welcome,</small>
 									Jason
@@ -1220,7 +1220,7 @@
 											<div class="clearfix">
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Bob Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/user.jpg" />
+														<img alt="Bob Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/user.jpg" />
 													</div>
 
 													<div class="body">
@@ -1273,7 +1273,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Joe Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar2.png" />
+														<img alt="Joe Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar2.png" />
 													</div>
 
 													<div class="body">
@@ -1326,7 +1326,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Jim Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar.png" />
+														<img alt="Jim Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar.png" />
 													</div>
 
 													<div class="body">
@@ -1379,7 +1379,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Alex Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar5.png" />
+														<img alt="Alex Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar5.png" />
 													</div>
 
 													<div class="body">
@@ -1400,7 +1400,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Bob Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar2.png" />
+														<img alt="Bob Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar2.png" />
 													</div>
 
 													<div class="body">
@@ -1421,7 +1421,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Susan's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar3.png" />
+														<img alt="Susan's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar3.png" />
 													</div>
 
 													<div class="body">
@@ -1442,7 +1442,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Phil Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar4.png" />
+														<img alt="Phil Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar4.png" />
 													</div>
 
 													<div class="body">
@@ -1463,7 +1463,7 @@
 
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Alexa Doe's avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar1.png" />
+														<img alt="Alexa Doe's avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar1.png" />
 													</div>
 
 													<div class="body">
@@ -1500,7 +1500,7 @@
 											<div class="comments">
 												<div class="itemdiv commentdiv">
 													<div class="user">
-														<img alt="Bob Doe's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar.png" />
+														<img alt="Bob Doe's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar.png" />
 													</div>
 
 													<div class="body">
@@ -1556,7 +1556,7 @@
 
 												<div class="itemdiv commentdiv">
 													<div class="user">
-														<img alt="Jennifer's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar1.png" />
+														<img alt="Jennifer's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar1.png" />
 													</div>
 
 													<div class="body">
@@ -1590,7 +1590,7 @@
 
 												<div class="itemdiv commentdiv">
 													<div class="user">
-														<img alt="Joe's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar2.png" />
+														<img alt="Joe's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar2.png" />
 													</div>
 
 													<div class="body">
@@ -1624,7 +1624,7 @@
 
 												<div class="itemdiv commentdiv">
 													<div class="user">
-														<img alt="Rita's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar3.png" />
+														<img alt="Rita's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar3.png" />
 													</div>
 
 													<div class="body">
@@ -1691,7 +1691,7 @@
 									<div class="dialogs">
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Alexa's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar1.png" />
+												<img alt="Alexa's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar1.png" />
 											</div>
 
 											<div class="body">
@@ -1715,7 +1715,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="John's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar.png" />
+												<img alt="John's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar.png" />
 											</div>
 
 											<div class="body">
@@ -1739,7 +1739,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Bob's Avatar" src="/TP/Public/Style_Admin/assets/avatars/user.jpg" />
+												<img alt="Bob's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/user.jpg" />
 											</div>
 
 											<div class="body">
@@ -1764,7 +1764,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Jim's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar4.png" />
+												<img alt="Jim's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar4.png" />
 											</div>
 
 											<div class="body">
@@ -1788,7 +1788,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Alexa's Avatar" src="/TP/Public/Style_Admin/assets/avatars/avatar1.png" />
+												<img alt="Alexa's Avatar" src="/www/mali/Public/Style_Admin/assets/avatars/avatar1.png" />
 											</div>
 
 											<div class="body">
@@ -1909,28 +1909,28 @@
 <script type="text/javascript">
     if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>
-<script src="/TP/Public/Style_Admin/assets/js/bootstrap.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/typeahead-bs2.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/bootstrap.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/typeahead-bs2.min.js"></script>
 
 <!-- page specific plugin scripts -->
 
 <!--[if lte IE 8]>
-<script src="/TP/Public/Style_Admin/assets/js/excanvas.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/excanvas.min.js"></script>
 <![endif]-->
 
-<script src="/TP/Public/Style_Admin/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/jquery.ui.touch-punch.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/jquery.slimscroll.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/jquery.easy-pie-chart.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/jquery.sparkline.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/flot/jquery.flot.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/flot/jquery.flot.pie.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/flot/jquery.flot.resize.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jquery.slimscroll.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jquery.easy-pie-chart.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jquery.sparkline.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/flot/jquery.flot.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/flot/jquery.flot.pie.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/flot/jquery.flot.resize.min.js"></script>
 
 <!-- ace scripts -->
 
-<script src="/TP/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
-<script src="/TP/Public/Style_Admin/assets/js/ace.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
 
 <!-- inline scripts related to this page -->
 

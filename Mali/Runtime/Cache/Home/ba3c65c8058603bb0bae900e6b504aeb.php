@@ -8,14 +8,14 @@
     <title>欢迎访问贱贱的网页</title>
 
     <!-- Bootstrap -->
-    <link href="/TP/Public/Style/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/www/mali/Public/Style/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdn.bootcss.com/respond./TP/Public/Style/js/1.4.2/respond.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond./www/mali/Public/Style/js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <!--导航条start-->
@@ -32,14 +32,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">首页</a>
+            <a class="navbar-brand" href="/www/mali/index.php/Home/index/index">首页</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="./myPootprint.html">我的足迹 <span class="sr-only">(current)</span></a></li>
-                <li><a href="./myGame.html">我的游戏</a></li>
+                <li><a href="/www/mali/index.php/Home/index/myGame">我的游戏</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -69,6 +69,7 @@
                         <li><a href="#">给我留言</a></li>
                         <li role="separator" class="divider">查看所有的留言</li>
                         <li><a href="#">其他</a></li>
+                        <li><a href="/www/mali/index.php/Admin">转入后台</a></li>
                     </ul>
                 </li>
             </ul>
@@ -125,19 +126,19 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="/TP/Public/Style/images/P1.jpg" alt="...">
+                    <img src="/www/mali/Public/Style/images/P1.jpg" alt="...">
                     <div class="carousel-caption">
                         ...
                     </div>
                 </div>
                 <div class="item">
-                    <img src="/TP/Public/Style/images/P5.jpg" alt="...">
+                    <img src="/www/mali/Public/Style/images/P5.jpg" alt="...">
                     <div class="carousel-caption">
                         ...
                     </div>
                 </div>
                 <div class="item">
-                    <img src="/TP/Public/Style/images/P4.jpg" alt="...">
+                    <img src="/www/mali/Public/Style/images/P4.jpg" alt="...">
                     <div class="carousel-caption">
                         ...
                     </div>
@@ -167,7 +168,7 @@
                 </div>
                 <div class="panel-body h328">
                     <div class="thumbnail">
-                        <img style="height:180px;" src="/TP/Public/Style/images/a1f36570bae01300bb29ee78abe8e0ad.jpg" alt="...">
+                        <img style="height:180px;" src="/www/mali/Public/Style/images/a1f36570bae01300bb29ee78abe8e0ad.jpg" alt="...">
                     </div>
                     <blockquote class="blockquote-reverse">
                         <p>你如果不努力，无论什么事你都做不好！</p>
@@ -183,7 +184,7 @@
                 </div>
                 <div class="panel-body h328">
                     <div class="thumbnail">
-                        <img style="height:180px;" src="/TP/Public/Style/images/dc9f656be307dce6c6de11ee413732fe.jpg" alt="...">
+                        <img style="height:180px;" src="/www/mali/Public/Style/images/dc9f656be307dce6c6de11ee413732fe.jpg" alt="...">
                     </div>
                     <blockquote class="blockquote-reverse">
                         <p>人永远是要学习的。死的时候，才是毕业的时候。</p>
@@ -199,7 +200,7 @@
                 </div>
                 <div class="panel-body h328">
                     <div class="thumbnail">
-                        <img style="height:180px;" src="/TP/Public/Style/images/a1bb8f501badfc6b7591d806c7cae3ba.jpg" alt="...">
+                        <img style="height:180px;" src="/www/mali/Public/Style/images/a1bb8f501badfc6b7591d806c7cae3ba.jpg" alt="...">
                     </div>
                     <blockquote class="blockquote-reverse">
                         <p>游戏或好或坏，结果并不重要，只要你我开心就好</p>
@@ -242,6 +243,13 @@
                     <p>
                         这是一个基本的面板
                     </p>
+                    <p>
+                        这是一个基本的面板
+                    </p>
+                    <p>
+                        这是一个基本的面板
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -301,7 +309,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/TP/Public/Style/js/bootstrap.min.js"></script>
+    <script src="/www/mali/Public/Style/js/bootstrap.min.js"></script>
     <div id="footer" class="container">
         <nav class="navbar navbar-default navbar-fixed-bottom">
             <div class="navbar-inner navbar-content-center">

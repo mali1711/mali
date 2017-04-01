@@ -7,7 +7,7 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>个人足迹</title>
     <!-- Bootstrap -->
-    <link href="/TP/Public/Style/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/www/mali/Public/Style/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,14 +30,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">首页</a>
+            <a class="navbar-brand" href="/www/mali/index.php/Home/index/index">首页</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="./myPootprint.html">我的足迹 <span class="sr-only">(current)</span></a></li>
-                <li><a href="./myGame.html">我的游戏</a></li>
+                <li><a href="/www/mali/index.php/Home/index/myGame">我的游戏</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -201,7 +201,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/TP/Public/Style/js/bootstrap.min.js"></script>
+<script src="/www/mali/Public/Style/js/bootstrap.min.js"></script>
 </body>
 <footer class="bs-docs-footer">
     <div class="container">
