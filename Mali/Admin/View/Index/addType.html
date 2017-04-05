@@ -1,10 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<extend name="Layout:Layout" />
+
+<block name="main-content">
+    <div class="main-content">
+        <div class="row">
+            <div class="col-md-2" >
+            </div>
+            <div class="col-md-8" >
+                <table class="table table-bordered">
+                    <caption><h4>分类列表</h4></caption>
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>名字</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Tanmay</td>
+                        <td>Bangalore</td>
+                        <td>560001</td>
+                    </tr>
+                    <tr>
+                        <td>Sachin</td>
+                        <td>Mumbai</td>
+                        <td>400003</td>
+                    </tr>
+                    <tr>
+                        <td>Uma</td>
+                        <td>Pune</td>
+                        <td>411027</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <ul class="pagination">
+                    <li><a href="#">&laquo;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2" >
+            </div>
+            <div class="col-md-8" >
+                <form action="__MODULE__/Index/doAddType" method="post" role="form">
+                    <div class="form-group">
+                        <label for="name"><h4>添加新分类:</h4></label>
+                        <input type="text" class="form-control" name="type_name" placeholder="请输入名称">
+                    </div>
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </form>
+            </div>
+        </div>
+    </div><!-- /.main-content -->
+</block>

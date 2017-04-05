@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284afcce-d4cb-4c42-83be-ef8a3a626557" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Admin/View/Layout/1.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mali/Admin/View/Layout/base.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/345724eb8ed182ea705709b55912955e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_05.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_05.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_05.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Index/addType.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Index/addType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/21a4ed60f77ffeb2ceab35d5752f1e5a.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/21a4ed60f77ffeb2ceab35d5752f1e5a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_01.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_01.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_01.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_01.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_01.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_01.log" />
     </list>
     <ignored path="mali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +31,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
+      <file leaf-file-name="Layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="389" column="32" selection-start-line="389" selection-start-column="32" selection-end-line="389" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#15220#15225#0" expanded="true" />
+                <element signature="e#18531#18536#0" expanded="true" />
+                <element signature="e#19705#19710#0" expanded="true" />
+                <element signature="e#19979#19984#0" expanded="true" />
+                <element signature="e#23076#23081#0" expanded="true" />
+                <element signature="e#26307#26313#0" expanded="true" />
+                <marker date="1491360221908" expanded="true" signature="28195:28329" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -53,9 +76,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="350" column="93" selection-start-line="350" selection-start-column="90" selection-end-line="350" selection-end-column="93" />
+            <state relative-caret-position="75">
+              <caret line="1170" column="8" selection-start-line="1170" selection-start-column="8" selection-end-line="1170" selection-end-column="8" />
               <folding>
+                <element signature="n#div#0;n#block#0;n#!!top" expanded="false" />
                 <element signature="e#911#916#0" expanded="true" />
                 <element signature="e#5748#5754#1" expanded="true" />
                 <element signature="e#5914#5920#1" expanded="true" />
@@ -72,85 +96,20 @@
                 <element signature="e#29869#29877#0" expanded="true" />
                 <element signature="e#30423#30429#0" expanded="true" />
                 <element signature="e#30485#30491#0" expanded="true" />
-                <element signature="e#32419#32424#0" expanded="true" />
-                <element signature="e#34057#34062#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layout.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html">
+      <file leaf-file-name="addType.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addType.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#15209#15214#0" expanded="true" />
-                <element signature="e#18520#18525#0" expanded="true" />
-                <element signature="e#19694#19699#0" expanded="true" />
-                <element signature="e#19968#19973#0" expanded="true" />
-                <element signature="e#23065#23070#0" expanded="true" />
-                <element signature="e#26296#26302#0" expanded="true" />
-                <marker date="1491032304850" expanded="true" signature="28184:28318" ph="..." />
+                <element signature="e#1200#1207#0" expanded="true" />
+                <element signature="e#1488#1495#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invoice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/invoice.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="665" column="24" selection-start-line="665" selection-start-column="24" selection-end-line="665" selection-end-column="82" />
-              <folding>
-                <marker date="1491028248244" expanded="true" signature="25924:26032" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="treeview.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/treeview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="883" selection-end-column="0" />
-              <folding>
-                <marker date="1491028248273" expanded="true" signature="21535:21643" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Home/Model/UsersModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/Conf/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -175,6 +134,8 @@
         <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/1.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
+        <option value="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Mali/Admin/View/Index/addType.html" />
       </list>
     </option>
   </component>
@@ -184,10 +145,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="-17" />
+    <option name="x" value="-16" />
+    <option name="y" value="-6" />
     <option name="width" value="1386" />
     <option name="height" value="713" />
   </component>
@@ -494,6 +458,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="284afcce-d4cb-4c42-83be-ef8a3a626557" name="Default" comment="" />
@@ -501,15 +468,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491030365166</updated>
-      <workItem from="1491030370567" duration="2540000" />
+      <workItem from="1491030370567" duration="11223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2540000" />
+    <option name="totallyTimeSpent" value="11223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="-17" width="1386" height="713" extended-state="0" />
+    <frame x="-16" y="-6" width="1386" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20948905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -603,26 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -641,10 +592,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="669" column="32" selection-start-line="669" selection-start-column="20" selection-end-line="669" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1491031793852" expanded="true" signature="31252:31363" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,19 +606,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.php">
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-7249">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="350" column="93" selection-start-line="350" selection-start-column="90" selection-end-line="350" selection-end-column="93" />
+        <state relative-caret-position="75">
+          <caret line="1170" column="8" selection-start-line="1170" selection-start-column="8" selection-end-line="1170" selection-end-column="8" />
           <folding>
+            <element signature="n#div#0;n#block#0;n#!!top" expanded="false" />
             <element signature="e#911#916#0" expanded="true" />
             <element signature="e#5748#5754#1" expanded="true" />
             <element signature="e#5914#5920#1" expanded="true" />
@@ -687,28 +644,53 @@
             <element signature="e#29869#29877#0" expanded="true" />
             <element signature="e#30423#30429#0" expanded="true" />
             <element signature="e#30485#30491#0" expanded="true" />
-            <element signature="e#32419#32424#0" expanded="true" />
-            <element signature="e#34057#34062#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="389" column="32" selection-start-line="389" selection-start-column="32" selection-end-line="389" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#15209#15214#0" expanded="true" />
-            <element signature="e#18520#18525#0" expanded="true" />
-            <element signature="e#19694#19699#0" expanded="true" />
-            <element signature="e#19968#19973#0" expanded="true" />
-            <element signature="e#23065#23070#0" expanded="true" />
-            <element signature="e#26296#26302#0" expanded="true" />
-            <marker date="1491032304850" expanded="true" signature="28184:28318" ph="..." />
+            <element signature="e#15220#15225#0" expanded="true" />
+            <element signature="e#18531#18536#0" expanded="true" />
+            <element signature="e#19705#19710#0" expanded="true" />
+            <element signature="e#19979#19984#0" expanded="true" />
+            <element signature="e#23076#23081#0" expanded="true" />
+            <element signature="e#26307#26313#0" expanded="true" />
+            <marker date="1491360221908" expanded="true" signature="28195:28329" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+          <folding>
+            <element signature="e#1200#1207#0" expanded="true" />
+            <element signature="e#1488#1495#0" expanded="true" />
           </folding>
         </state>
       </provider>

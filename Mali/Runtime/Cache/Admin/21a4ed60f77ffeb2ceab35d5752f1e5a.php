@@ -377,16 +377,16 @@
                 <li class="active open">
                     <a href="#" class="dropdown-toggle">
                         <i class="icon-desktop"></i>
-                        <span class="menu-text"> UI Elements </span>
+                        <span class="menu-text"> 基本操作 </span>
 
                         <b class="arrow icon-angle-down"></b>
                     </a>
 
                     <ul class="submenu">
                         <li>
-                            <a href="elements.html">
+                            <a href="/www/mali/index.php/Admin/Index/addType">
                                 <i class="icon-double-angle-right"></i>
-                                Elements
+                                添加知识分类
                             </a>
                         </li>
 
