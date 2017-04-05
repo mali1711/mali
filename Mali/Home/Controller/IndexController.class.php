@@ -35,7 +35,6 @@ class IndexController extends Controller {
      * */
     public function doRegister()
     {
-        var_dump($_POST);
         $User = D("Users"); // 实例化User对象
         if (!$User->create()){
             // 如果创建失败 表示验证没有通过 输出错误提示信息

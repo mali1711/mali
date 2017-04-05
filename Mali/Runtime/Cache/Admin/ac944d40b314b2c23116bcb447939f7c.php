@@ -674,49 +674,18 @@
             <div class="col-md-2" >
             </div>
             <div class="col-md-8" >
-                <table class="table table-bordered">
-                    <caption><h4>分类列表</h4></caption>
-                    <thead>
-                    <tr>
-                        <th>id</th>
-                        <th>名字</th>
-                        <th>操作</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
-                        <td><?php echo ($vo["type_id"]); ?></td>
-                        <td><?php echo ($vo["type_name"]); ?></td>
-                        <td>
-                            <a class="btn btn-primary btn-xs" href="/www/mali/index.php/Admin/Index/addType?id=<?php echo ($vo["type_id"]); ?>">添加子类</a>
-                            <a class="btn btn-danger btn-xs" href="/www/mali/index.php/Admin/Index/doAddType<?php echo ($vo["type_id"]); ?>">删除分类</a>
-                            <a class="btn btn-info btn-xs" href="/www/mali/index.php/Admin/Index/doAddType<?php echo ($vo["type_id"]); ?>">修改类名</a>
-                        </td>
-                    </tr><?php endforeach; endif; ?>
-                    </tbody>
-                </table>
-                <ul class="pagination">
-                    <li><a href="#">&laquo;</a></li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">&raquo;</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2" >
-            </div>
-            <div class="col-md-8" >
                 <form action="/www/mali/index.php/Admin/Index/doAddType" method="post" role="form">
-                    <input type="hidden" class="form-control" name="type_pid" value="<?php echo ($type_pid); ?>">
+                    <input type="hidden" class="form-control" name="type_pid" placeholder="请输入名称" value="<?php echo ($type_id); ?>">
                     <div class="form-group">
-                        <label for="name"><h4>添加子分类:</h4></label>
+                        <label for="name"><h4>添加新分类:</h4></label>
                         <input type="text" class="form-control" name="type_name" placeholder="请输入名称">
                     </div>
                     <button type="submit" class="btn btn-primary">提交</button>
                 </form>
             </div>
+            <div class="col-md-2" >
+            </div>
+
         </div>
     </div><!-- /.main-content -->
 

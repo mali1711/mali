@@ -16,21 +16,17 @@
                     </tr>
                     </thead>
                     <tbody>
+                    <foreach name="list" item="vo" >
                     <tr>
-                        <td>Tanmay</td>
-                        <td>Bangalore</td>
-                        <td>560001</td>
+                        <td>{$vo.type_id}</td>
+                        <td>{$vo.type_name}</td>
+                        <td>
+                            <a class="btn btn-primary btn-xs" href="__MODULE__/Index/addType?id={$vo.type_id}">添加子类</a>
+                            <a class="btn btn-danger btn-xs" href="__MODULE__/Index/doAddType{$vo.type_id}">删除分类</a>
+                            <a class="btn btn-info btn-xs" href="__MODULE__/Index/doAddType{$vo.type_id}">修改类名</a>
+                        </td>
                     </tr>
-                    <tr>
-                        <td>Sachin</td>
-                        <td>Mumbai</td>
-                        <td>400003</td>
-                    </tr>
-                    <tr>
-                        <td>Uma</td>
-                        <td>Pune</td>
-                        <td>411027</td>
-                    </tr>
+                    </foreach>
                     </tbody>
                 </table>
                 <ul class="pagination">
@@ -47,8 +43,9 @@
             </div>
             <div class="col-md-8" >
                 <form action="__MODULE__/Index/doAddType" method="post" role="form">
+                    <input type="hidden" class="form-control" name="type_pid" value="{$type_pid}">
                     <div class="form-group">
-                        <label for="name"><h4>添加新分类:</h4></label>
+                        <label for="name"><h4>添加子分类:</h4></label>
                         <input type="text" class="form-control" name="type_name" placeholder="请输入名称">
                     </div>
                     <button type="submit" class="btn btn-primary">提交</button>
