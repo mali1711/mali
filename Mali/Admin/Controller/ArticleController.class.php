@@ -26,6 +26,8 @@ class ArticleController extends Controller {
      * */
     public function addArticle()
     {
+        $data['type_id'] = $_GET['id'];
+        $this->assign('data',$data);
         $this->display('Index/addArticle');
     }
     

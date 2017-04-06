@@ -689,7 +689,7 @@
                         <td><?php echo ($vo["type_name"]); ?></td>
                         <td>
                             <a class="btn btn-primary btn-xs" href="/www/mali/index.php/Admin/Index/addType?id=<?php echo ($vo["type_id"]); ?>">添加子类</a>
-                            <a class="btn btn-danger btn-xs" href="/www/mali/index.php/Admin/Index/doAddType<?php echo ($vo["type_id"]); ?>">删除分类</a>
+                            <a class="btn btn-danger btn-xs" href="/www/mali/index.php/Admin/Article/addArticle?id=<?php echo ($vo["type_id"]); ?>">添加文章</a>
                             <a class="btn btn-info btn-xs" href="/www/mali/index.php/Admin/Index/doAddType<?php echo ($vo["type_id"]); ?>">修改类名</a>
                         </td>
                     </tr><?php endforeach; endif; ?>
