@@ -34,7 +34,7 @@ class ArticleController extends Controller {
      * */
     public function doAddArticle()
     {
-        
+       dump($_POST);
     }
 
     /*

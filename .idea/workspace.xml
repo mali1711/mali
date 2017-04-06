@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284afcce-d4cb-4c42-83be-ef8a3a626557" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/345724eb8ed182ea705709b55912955e.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/345724eb8ed182ea705709b55912955e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/ac944d40b314b2c23116bcb447939f7c.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/ac944d40b314b2c23116bcb447939f7c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" afterPath="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/e5aaca620485e8c99a861b9d21968aea.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/e5aaca620485e8c99a861b9d21968aea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_06.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_06.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_06.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Common/17_04_06.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_06.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Home/17_04_06.log" />
     </list>
     <ignored path="mali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +29,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
+      <file leaf-file-name="addArticle.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="25">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <folding>
+                <element signature="e#6#25#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../utf8-php/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1400">
+              <caret line="79" column="25" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -66,7 +98,11 @@
         <option value="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/Article.html" />
+        <option value="$USER_HOME$/Desktop/index01.html" />
+        <option value="$PROJECT_DIR$/../utf8-php/text.html" />
+        <option value="$USER_HOME$/Desktop/index.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" />
+        <option value="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" />
       </list>
     </option>
   </component>
@@ -81,10 +117,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="-6" />
+    <option name="x" value="237" />
+    <option name="y" value="-9" />
     <option name="width" value="1386" />
-    <option name="height" value="713" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -173,6 +209,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mali" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Mali" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -214,32 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mali" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mali" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mali" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layout" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,6 +329,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\www\mali\Public\Style" />
+      <recent name="D:\wamp\www\www\mali\Public\Style_Admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\wamp\www\www\mali\Mali\Admin\Controller" />
     </key>
@@ -367,15 +399,15 @@
       <option name="presentableId" value="Default" />
       <updated>1491030365166</updated>
       <workItem from="1491030370567" duration="20372000" />
-      <workItem from="1491442939600" duration="6622000" />
+      <workItem from="1491442939600" duration="11680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26994000" />
+    <option name="totallyTimeSpent" value="32052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-6" width="1386" height="713" extended-state="1" />
+    <frame x="237" y="-9" width="1386" height="681" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20948905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -549,31 +581,23 @@
         <state relative-caret-position="374">
           <caret line="840" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="1170" selection-end-column="8" />
           <folding>
-            <element signature="e#911#916#0" expanded="true" />
-            <element signature="e#5748#5754#1" expanded="true" />
-            <element signature="e#5914#5920#1" expanded="true" />
-            <element signature="e#6080#6086#1" expanded="true" />
-            <element signature="e#6247#6253#1" expanded="true" />
-            <element signature="e#6697#6703#0" expanded="true" />
-            <element signature="e#6949#6955#0" expanded="true" />
-            <element signature="e#7199#7205#0" expanded="true" />
-            <element signature="e#24691#24697#0" expanded="true" />
-            <element signature="e#24752#24758#0" expanded="true" />
-            <element signature="e#25682#25690#0" expanded="true" />
-            <element signature="e#27752#27760#0" expanded="true" />
-            <element signature="e#28811#28819#0" expanded="true" />
-            <element signature="e#29869#29877#0" expanded="true" />
-            <element signature="e#30423#30429#0" expanded="true" />
-            <element signature="e#30485#30491#0" expanded="true" />
+            <element signature="e#911#916#0" expanded="false" />
+            <element signature="e#5748#5754#1" expanded="false" />
+            <element signature="e#5914#5920#1" expanded="false" />
+            <element signature="e#6080#6086#1" expanded="false" />
+            <element signature="e#6247#6253#1" expanded="false" />
+            <element signature="e#6697#6703#0" expanded="false" />
+            <element signature="e#6949#6955#0" expanded="false" />
+            <element signature="e#7199#7205#0" expanded="false" />
+            <element signature="e#24691#24697#0" expanded="false" />
+            <element signature="e#24752#24758#0" expanded="false" />
+            <element signature="e#25682#25690#0" expanded="false" />
+            <element signature="e#27752#27760#0" expanded="false" />
+            <element signature="e#28811#28819#0" expanded="false" />
+            <element signature="e#29869#29877#0" expanded="false" />
+            <element signature="e#30423#30429#0" expanded="false" />
+            <element signature="e#30485#30491#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,20 +609,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/utf8-php/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/utf8-php/index01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/utf8-php/php/Uploader.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5625">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/utf8-php/php/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utf8-php/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utf8-php/php/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utf8-php/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="215">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="e#6#25#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php">
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
