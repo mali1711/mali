@@ -19,7 +19,12 @@ class IndexController extends Controller {
             $this->display('index/addSubclass');
         }else{
             $type = D('Type');
-            $list = $type->order('type_order desc')->select();
+            $list = $type->order('concat(type_path,type_id)')->select();
+            foreach ($list as $k=>$v){
+                $m = substr_count($v['type_path'],',');
+                $str = str_repeat("&nbsp",$m*8);
+                $list[$k]['type_name'] = $str.$v['type_name'];
+            }
             $this->assign('list',$list);
             $this->display('index/addType');
         }
@@ -33,18 +38,19 @@ class IndexController extends Controller {
     {
         $type = D("Type");
         $pid = $_POST['type_pid'];
+        $_POST['type_path'] = '0'.',';
         //如果是添加子类，需要进行数据的初始化
         if($pid){
             $path = $type->find($pid)['type_path'];
-            $path = intval($path);
-            $_POST['type_path'] = $path+1;
+            $path = $path.$pid.',';
+            $_POST['type_path'] = $path;
         }
         if(!$type->create()){
             $this->error($type->getError());
         }else{
             $res = $type->add();
             if ($res) {
-                $this->success('分类添加成功');
+                $this->success('分类添加成功',U('Index/addType'));
             }
         }
     }

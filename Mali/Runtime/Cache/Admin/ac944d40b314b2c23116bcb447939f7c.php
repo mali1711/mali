@@ -391,9 +391,9 @@
                         </li>
 
                         <li>
-                            <a href="buttons.html">
+                            <a href="__MOUDLE__/Index/addArticle">
                                 <i class="icon-double-angle-right"></i>
-                                Buttons &amp; Icons
+                                添加文章信息
                             </a>
                         </li>
 
