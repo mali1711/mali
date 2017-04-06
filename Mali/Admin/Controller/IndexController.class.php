@@ -54,4 +54,32 @@ class IndexController extends Controller {
             }
         }
     }
+
+    /*
+     * 修改分类名字
+     *
+     * */
+    public function updateType()
+    {
+        $type = D("Type");
+        $list = $type->find($_GET['id']);
+        $this->assign('data',$list);
+        $this->display('Index/updateType');
+    }
+
+    /*
+     * 执行修改动作
+     * */
+    public function doUpdateType()
+    {
+        $type = D("Type");
+        $id = $_POST['type_id'];
+        $data['type_name'] = $_POST['type_name'];
+        $res = $type->where("type_id = $id")->save($data);
+        if($res){
+            $this->success('修改成功',U('Index/addType'));
+        }else{
+            $this->success('修改失败');
+        }
+    }
 }

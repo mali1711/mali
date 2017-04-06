@@ -16,6 +16,7 @@
 <center>
 <form action="/www/mali/index.php/Admin/Article/doAddArticle" method="post">
 
+    <input type="hidden" name="type_id" value="<?php echo ($data["type_id"]); ?>">
     <!-- 加载编辑器的容器 -->
     <script id="container" style="width:90%;height:500px" name="content" type="text/plain"></script>
     <input class="btn btn-primary" type="submit" value="确认点提交">

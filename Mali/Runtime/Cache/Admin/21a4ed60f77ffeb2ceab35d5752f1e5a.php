@@ -393,7 +393,7 @@
                         <li>
                             <a href="/www/mali/index.php/Admin/Article/addArticle">
                                 <i class="icon-double-angle-right"></i>
-                                添加文章信息
+                                文章列表
                             </a>
                         </li>
 

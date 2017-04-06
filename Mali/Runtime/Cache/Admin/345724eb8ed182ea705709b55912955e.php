@@ -393,7 +393,7 @@
                         <li>
                             <a href="/www/mali/index.php/Admin/Article/addArticle">
                                 <i class="icon-double-angle-right"></i>
-                                添加文章信息
+                                文章列表
                             </a>
                         </li>
 
@@ -690,7 +690,7 @@
                         <td>
                             <a class="btn btn-primary btn-xs" href="/www/mali/index.php/Admin/Index/addType?id=<?php echo ($vo["type_id"]); ?>">添加子类</a>
                             <a class="btn btn-danger btn-xs" href="/www/mali/index.php/Admin/Article/addArticle?id=<?php echo ($vo["type_id"]); ?>">添加文章</a>
-                            <a class="btn btn-info btn-xs" href="/www/mali/index.php/Admin/Index/doAddType<?php echo ($vo["type_id"]); ?>">修改类名</a>
+                            <a class="btn btn-info btn-xs" href="/www/mali/index.php/Admin/Index/updateType?id=<?php echo ($vo["type_id"]); ?>">修改类名</a>
                         </td>
                     </tr><?php endforeach; endif; ?>
                     </tbody>
