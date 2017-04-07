@@ -36,7 +36,17 @@ class ArticleController extends Controller {
      * */
     public function doAddArticle()
     {
-       dump($_POST);
+        $article = D("Article");
+        if (!$article->create()){ // 创建数据对象
+            exit($article->getError());
+        }else{
+            $res = $article->add();
+            if($res){
+                $this->success('文章已经上传');
+            }else{
+                $this->error('文章上传失误');
+            }
+        }
     }
 
     /*

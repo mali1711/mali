@@ -14,11 +14,19 @@
 </head>
 <body>
 <center>
+    <h3><a href="__MODULE__/Index/addType">返回</a>||添加内容：</h3>
 <form action="__MODULE__/Article/doAddArticle" method="post">
-
-    <input type="hidden" name="type_id" value="{$data.type_id}">
+    <div class="form-group" style="padding-bottom: 50px; width:83%;">
+        <label class="col-sm-2 control-label" style="padding-left:10px;">请输入文章的标题</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" name="article_title" type="text"  value="">
+        </div>
+    </div>
+    <input type="hidden" name="article_type_id" value="{$data.type_id}">
     <!-- 加载编辑器的容器 -->
-    <script id="container" style="width:90%;height:500px" name="content" type="text/plain"></script>
+    <div>
+          <script id="container" style="width:90%;height:500px;" name="article_content" type="text/plain"></script>
+    </div>
     <input class="btn btn-primary" type="submit" value="确认点提交">
     <div class="btn btn-danger"  onclick="clearLocalData()" >清空草稿箱</div>
 </form>
