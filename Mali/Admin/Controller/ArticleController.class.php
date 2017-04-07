@@ -10,7 +10,10 @@ class ArticleController extends Controller {
      * */
     public function index()
     {
-        
+        $article =  D('Article');
+        $list = $article->select();
+        $this->assign('list',$list);
+        $this->display("Index/articleList");
     }
 
     /*

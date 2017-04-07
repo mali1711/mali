@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284afcce-d4cb-4c42-83be-ef8a3a626557" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Admin/Model/ArticleModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" afterPath="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/e5aaca620485e8c99a861b9d21968aea.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/e5aaca620485e8c99a861b9d21968aea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_07.log" afterPath="$PROJECT_DIR$/Mali/Runtime/Logs/Admin/17_04_07.log" />
     </list>
     <ignored path="mali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,14 +40,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addType.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addType.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="15" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="308">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="e#6#25#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articleList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,8 +137,9 @@
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/updateType.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html" />
-        <option value="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" />
         <option value="$PROJECT_DIR$/Mali/Admin/Model/ArticleModel.class.php" />
+        <option value="$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php" />
+        <option value="$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html" />
       </list>
     </option>
   </component>
@@ -393,15 +413,15 @@
       <workItem from="1491030370567" duration="20372000" />
       <workItem from="1491442939600" duration="15554000" />
       <workItem from="1491476053376" duration="1745000" />
-      <workItem from="1491527691018" duration="4839000" />
+      <workItem from="1491527691018" duration="6319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42510000" />
+    <option name="totallyTimeSpent" value="43990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="-4" width="1386" height="731" extended-state="0" />
+    <frame x="-26" y="-4" width="1386" height="731" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25328466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -619,14 +639,6 @@
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/html.html" />
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/blank.html" />
     <entry file="file://$PROJECT_DIR$/../utf8-php/index.html" />
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addType.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/updateType.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -680,6 +692,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#6#25#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="15" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/addArticle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -692,13 +722,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php">
+    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#25#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
