@@ -391,7 +391,7 @@
                         </li>
 
                         <li>
-                            <a href="/www/mali/index.php/Admin/Article/addArticle">
+                            <a href="/www/mali/index.php/Admin/Article/index">
                                 <i class="icon-double-angle-right"></i>
                                 文章列表
                             </a>

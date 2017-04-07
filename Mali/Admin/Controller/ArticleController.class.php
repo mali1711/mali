@@ -21,7 +21,12 @@ class ArticleController extends Controller {
      * */
     public function detailsArticle()
     {
-        
+        $article = D('Article');
+        $list =  $article->find($_GET['id']);
+        $list['article_content'] = htmlspecialchars_decode( $list['article_content']);
+        $this->assign('list',$list);
+        $this->display('Index/detailsArticle');
+//        {$list.article_content}
     }
 
     /*
@@ -73,7 +78,34 @@ class ArticleController extends Controller {
      * */
     public function delArticle()
     {
-        
+        $article = D('Article');
+        $pic = $this->__getArticlePic()['1'];
+        if($article->delete($_GET['id'])){
+            foreach($pic as $k=>$filename){
+                $pic = str_replace("/www/mali/","./","$filename");
+                $res = unlink($pic);
+            }
+            if($res){
+                $this->success('数据删除成功',U('Article/index'));
+            }else{
+                $this->error('图片删除有残留',U('Article/index'));
+            }
+        }else{
+            $this->error('数据删除失败',U('Article/index'));
+        }
+    }
+
+    /*
+     * 获取文章里面的图片
+     * */
+    private function __getArticlePic()
+    {
+        $article = D('Article');
+        $list =  $article->find($_GET['id']);
+        $str = htmlspecialchars_decode( $list['article_content']);
+        $preg = '/<img.*?src=[\"|\']?(.*?)[\"|\']?\s.*?>/i';
+        preg_match_all($preg, $str, $imgArr);
+        return($imgArr);
     }
 
 
