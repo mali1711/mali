@@ -377,7 +377,7 @@
                 <li class="active open">
                     <a href="#" class="dropdown-toggle">
                         <i class="icon-desktop"></i>
-                        <span class="menu-text"> 基本操作 </span>
+                        <span class="menu-text">技术类</span>
 
                         <b class="arrow icon-angle-down"></b>
                     </a>
@@ -466,7 +466,7 @@
                 <li>
                     <a href="#" class="dropdown-toggle">
                         <i class="icon-list"></i>
-                        <span class="menu-text"> Tables </span>
+                        <span class="menu-text"> 生活类 </span>
 
                         <b class="arrow icon-angle-down"></b>
                     </a>
@@ -475,14 +475,20 @@
                         <li>
                             <a href="tables.html">
                                 <i class="icon-double-angle-right"></i>
-                                Simple &amp; Dynamic
+                                我的足迹
                             </a>
                         </li>
 
                         <li>
                             <a href="jqgrid.html">
                                 <i class="icon-double-angle-right"></i>
-                                jqGrid plugin
+                                我的日记
+                            </a>
+                        </li>
+                        <li>
+                            <a href="jqgrid.html">
+                                <i class="icon-double-angle-right"></i>
+                                我的相册
                             </a>
                         </li>
                     </ul>
@@ -491,7 +497,7 @@
                 <li>
                     <a href="#" class="dropdown-toggle">
                         <i class="icon-edit"></i>
-                        <span class="menu-text"> Forms </span>
+                        <span class="menu-text"> 展示类 </span>
 
                         <b class="arrow icon-angle-down"></b>
                     </a>
@@ -508,6 +514,44 @@
                             <a href="form-wizard.html">
                                 <i class="icon-double-angle-right"></i>
                                 Wizard &amp; Validation
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="wysiwyg.html">
+                                <i class="icon-double-angle-right"></i>
+                                Wysiwyg &amp; Markdown
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="dropzone.html">
+                                <i class="icon-double-angle-right"></i>
+                                Dropzone File Upload
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle">
+                        <i class="icon-edit"></i>
+                        <span class="menu-text"> 用户类 </span>
+
+                        <b class="arrow icon-angle-down"></b>
+                    </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="form-elements.html">
+                                <i class="icon-double-angle-right"></i>
+                                查看所有用户留言
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="form-wizard.html">
+                                <i class="icon-double-angle-right"></i>
+                                查看活跃用户
                             </a>
                         </li>
 
@@ -747,7 +791,7 @@
                                                     <a class="blue" href="/www/mali/index.php/Admin/Article/detailsArticle?id=<?php echo ($vo["article_id"]); ?>">
                                                         <i class="icon-zoom-in bigger-130"></i>
                                                     </a>
-                                                    <a class="red" href="/www/mali/index.php/Admin/Article/delArticl?id=<?php echo ($vo["article_id"]); ?>">
+                                                    <a class="red" href="/www/mali/index.php/Admin/Article/delArticle?id=<?php echo ($vo["article_id"]); ?>">
                                                         <i class="icon-trash bigger-130"></i>
                                                     </a>
                                                 </div>
