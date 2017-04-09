@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284afcce-d4cb-4c42-83be-ef8a3a626557" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Upload/Article/20170407/14915546141114953453.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mali/Home/Controller/UsersController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" afterPath="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/21a4ed60f77ffeb2ceab35d5752f1e5a.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/21a4ed60f77ffeb2ceab35d5752f1e5a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/6c9647aff8367641d5e9bbc4c33dbf37.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/6c9647aff8367641d5e9bbc4c33dbf37.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/ac944d40b314b2c23116bcb447939f7c.php" afterPath="$PROJECT_DIR$/Mali/Runtime/Cache/Admin/ac944d40b314b2c23116bcb447939f7c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php" />
     </list>
     <ignored path="mali.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,9 +28,23 @@
       <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="585">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <element signature="e#7#23#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/UsersController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#33#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +68,6 @@
         <option value="$PROJECT_DIR$/Mali/Home/View/Layout/nav.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/1.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Mali/Home/Model/UsersModel.class.php" />
         <option value="$PROJECT_DIR$/Mali/Admin/Model/TypeModel.class.php" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/addSubclass.html" />
@@ -79,6 +87,8 @@
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/detailsArticle.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Index/articleList.html" />
         <option value="$PROJECT_DIR$/Mali/Admin/View/Layout/Layout.html" />
+        <option value="$PROJECT_DIR$/Mali/Home/Controller/UsersController.class.php" />
+        <option value="$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php" />
       </list>
     </option>
   </component>
@@ -209,13 +219,14 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp\www\www\mali\Mali\Admin\View\Index" />
-      <recent name="D:\wamp\www\www\mali\Mali\Admin\Controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp\www\www\mali\Public\Style" />
       <recent name="D:\wamp\www\www\mali\Public\Style_Admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\www\mali\Mali\Home\Controller" />
+      <recent name="E:\wamp\www\www\mali\Mali\Admin\View\Index" />
+      <recent name="D:\wamp\www\www\mali\Mali\Admin\Controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -283,24 +294,24 @@
       <workItem from="1491442939600" duration="15554000" />
       <workItem from="1491476053376" duration="1745000" />
       <workItem from="1491527691018" duration="15965000" />
-      <workItem from="1491708885137" duration="1464000" />
+      <workItem from="1491708885137" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55100000" />
+    <option name="totallyTimeSpent" value="56485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -337,17 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mali/Admin/View/Index/detailsArticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#646#651#0" expanded="true" />
-            <element signature="e#2123#2130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Admin/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1600">
@@ -616,11 +616,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/UsersController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#33#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mali/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="585">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="e#7#23#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

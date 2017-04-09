@@ -1,4 +1,8 @@
 <?php
+
+/*
+ * 页面首页
+ * */
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
