@@ -310,7 +310,7 @@
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/www/mali/Public/Style/js/bootstrap.min.js"></script>
-    <div id="footer" class="container">
+    <!--<div id="footer" class="container">
         <nav class="navbar navbar-default navbar-fixed-bottom">
             <div class="navbar-inner navbar-content-center">
                 <p class="text-muted credit" style="padding: 10px;">
@@ -318,7 +318,7 @@
                 </p>
             </div>
         </nav>
-    </div>
+    </div>-->
 </div>
 </body>
 </html>
