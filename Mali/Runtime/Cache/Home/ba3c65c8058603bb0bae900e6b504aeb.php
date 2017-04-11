@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="/www/mali/Public/Style/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="/www/mali/Public/Style/index.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,6 +17,31 @@
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond./www/mali/Public/Style/js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+        function doAdd(form) {
+            var res =
+            $.ajax({
+                url:"/www/mali/index.php/Home/Message/addMessage",
+                type:"post",
+                dataType:"json",
+                async:true,
+                data: $("#submitMessige").serialize(),
+                success:function(data){
+                    if(data.status>0){
+                        alert('留言成功');
+                        var tr = "<blockquote class="+"panel M_showMessage"+">"+data['info']['message_board_content'];
+                        tr += "<small>"+data['info']['message_board_username'] +"<cite>--"+data['info']['message_board_addtime']+"</cite></small>";
+                        tr +="</blockquote>";
+                        $("#users_message_content ").prepend(tr);
+                        $("#users_message_content blockquote:last").remove();
+                    }
+
+                }
+            });
+            form.reset();
+            return false;
+        }
+    </script>
 </head>
 <!--导航条start-->
 <div  class="container-fluid">
@@ -257,60 +282,42 @@
     <!--留言板start-->
     <hr/>
     <div class="row M_MessageBoard">
-        <div class="col-xs-6 col-sm-6">
-            <h4>用户留言：</h4>
-            <blockquote class="panel M_showMessage">
-                这是一个向右对齐的引用。这是一个向右对齐的引用。这是一个向右对齐的引用。这是一个向右对齐的引用。
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-            </blockquote>
-            <blockquote class="panel M_showMessage">
-                这是一个向右对齐的引用。这是一个向右对齐的引用。这是一个向右对齐的引用。这是一个向右对齐的引用。
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-            </blockquote>
-            <blockquote class="panel M_showMessage">
-                这是一个向右对齐的引用。这是一个向右对齐的引用。这是一个向右对齐的引用。这是一个向右对齐的引用。
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-            </blockquote>
-            <ul class="pagination">
-                <li><a href="#">&laquo;</a></li>
-                <li class="active"><a href="#">1</a></li>
-                <li class="disabled"><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&raquo;</a></li>
-            </ul>
+        <div class="col-xs-6 col-sm-6" id="users_message_content">
 
         </div>
         <div class="col-xs-6 col-sm-6">
-            <form class="form-inline pull-right M_form2">
+            <form id="submitMessige" class="form-inline pull-right M_form2" method="post" onsubmit="return doAdd(this)">
                 <div class="form-group">
                     <label for="exampleInputName2">名 字： </label>
-                    <input type="text" class="form-control" id="exampleInputName2" placeholder="你的名字">
+                    <input type="text" name="message_board_username" class="form-control" id="exampleInputName2" placeholder="你的名字">
                 </div><br/><br/><br/>
                 <div class="form-group">
                     <label for="exampleInputEmail2">邮 箱： </label>
-                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="你的邮箱">
+                    <input type="email" name="message_board_email" class="form-control" id="exampleInputEmail2" placeholder="你的邮箱">
                 </div><br/><br/><br/>
                 <div class="form-group">
                     <label for="content">留 言： </label>
-                    <textarea id="content" class="form-control" rows="6" cols="50"></textarea>
+                    <textarea id="content" name="message_board_content" class="form-control" rows="6" cols="50"></textarea>
                 </div><br/><br/><br/>
                 <div class="M_submit">
                     <div class="form-group">
-                        <input class="btn btn-info" type="button" value="提交">
-                        <input class="btn btn-danger" type="submit" value="撤销">
+                        <input class="btn btn-info" type="submit" value="提交">
+                        <input class="btn btn-danger" type="reset" value="撤销">
                     </div>
                 </div>
 
             </form></div>
+        <div class="col-xs-6 col-sm-12">
+            <h3> <a href="">点击查看更多留言</a></h3>
+        </div>
+
     </div>
     <!--留言板end-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/www/mali/Public/Style/js/bootstrap.min.js"></script>
-    <div id="footer" class="container">
+    <!--<div id="footer" class="container">
         <nav class="navbar navbar-default navbar-fixed-bottom">
             <div class="navbar-inner navbar-content-center">
                 <p class="text-muted credit" style="padding: 10px;">
@@ -318,7 +325,25 @@
                 </p>
             </div>
         </nav>
-    </div>
+    </div>-->
 </div>
+<script type="text/javascript">
+    $.ajax({
+     url:"/www/mali/index.php/Home/Message/index",
+     type:"get",
+     dataType:"json",
+     async:true,
+     data:'',
+     success:function(data){
+         $.each(data, function (n, value) {
+//             alert(value['message_board_content']);
+             var tr = "<blockquote class="+"panel M_showMessage"+">"+value['message_board_content'];
+                 tr += "<small>"+value['message_board_username'] +"<cite>--"+value['message_board_addtime']+"</cite></small>";
+                 tr +="</blockquote>";
+             $("#users_message_content").append(tr);
+         });
+     }
+     });
+</script>
 </body>
 </html>

@@ -95,6 +95,7 @@
                         <li><a href="#">给我留言</a></li>
                         <li role="separator" class="divider">查看所有的留言</li>
                         <li><a href="#">其他</a></li>
+                        <li><a href="/www/mali/index.php/Admin">转入后台</a></li>
                     </ul>
                 </li>
             </ul>
