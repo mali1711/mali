@@ -473,7 +473,7 @@
 
                     <ul class="submenu">
                         <li>
-                            <a href="tables.html">
+                            <a href="/www/mali/index.php/Admin/MyFootsteps/MyFootstepsList">
                                 <i class="icon-double-angle-right"></i>
                                 我的足迹
                             </a>

@@ -11,11 +11,11 @@ class MyFootstepsController extends Controller {
      * */
     public function MyFootstepsList()
     {
-        
+        $this->display('Life/MyFootstepsList');
     }
 
     /*
-     * 
+     * 添加我的足迹
      * */
     public function addMyFootsteps()
     {
@@ -29,7 +29,10 @@ class MyFootstepsController extends Controller {
     {
         
     }
-    
+
+    /*
+     * 执行我要删除的动作
+     * */
     public function delMyFootsteps()
     {
 
