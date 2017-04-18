@@ -18,6 +18,10 @@
 
     <!-- page specific plugin styles -->
 
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/jquery-ui-1.10.3.full.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/datepicker.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ui.jqgrid.css" />
+
     <!-- fonts -->
 
     <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-fonts.css" />
