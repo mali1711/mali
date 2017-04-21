@@ -19,7 +19,7 @@ class MyFootstepsController extends Controller {
      * */
     public function addMyFootsteps()
     {
-        
+        $this->display('Life/addMyFootsteps');
     }
 
     /*
@@ -27,7 +27,17 @@ class MyFootstepsController extends Controller {
      * */
     public function postMyFootsteps()
     {
-        
+        $article = D("My_footsteps");
+        if (!$article->create()){ // 创建数据对象
+            exit($article->getError());
+        }else{
+            $res = $article->add();
+            if($res){
+                $this->success('内容已经上传');
+            }else{
+                $this->error('内容上传失误');
+            }
+        }
     }
 
     /*

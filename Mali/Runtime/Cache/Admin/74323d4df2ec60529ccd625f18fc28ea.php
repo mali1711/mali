@@ -753,6 +753,7 @@
                         <i class="icon-double-angle-right"></i>
                         Dynamic tables and grids using jqGrid plugin
                     </small>
+                    <a class="pull-right" href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps">添加新的足迹</a>
                 </h1>
             </div><!-- /.page-header -->
 
