@@ -756,7 +756,9 @@
                     <a class="pull-right" href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps">添加新的足迹</a>
                 </h1>
             </div><!-- /.page-header -->
+            <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
             <script type="text/javascript">
+
                 $.ajax({
                     url:"/www/mali/index.php/Admin/MyFootsteps/Allinfo",
                     type:"get",
@@ -765,7 +767,6 @@
                     data:'',
                     success:function(data){
                         alert(data);
-
                     }
                 });
             </script>
