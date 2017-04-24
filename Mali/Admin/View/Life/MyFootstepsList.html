@@ -41,22 +41,19 @@
                     <a class="pull-right" href="__MODULE__/MyFootsteps/addMyFootsteps">添加新的足迹</a>
                 </h1>
             </div><!-- /.page-header -->
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <!-- PAGE CONTENT BEGINS -->
-
-                    <table id="grid-table"></table>
-
-                    <div id="grid-pager"></div>
-
-                    <script type="text/javascript">
-                        var $path_base = "/";//this will be used in gritter alerts containing images
-                    </script>
-
-                    <!-- PAGE CONTENT ENDS -->
-                </div><!-- /.col -->
-            </div><!-- /.row -->
+            <script type="text/javascript">
+                $.ajax({
+                    url:"__MODULE__/MyFootsteps/Allinfo",
+                    type:"get",
+                    dataType:"json",
+                    async:true,
+                    data:'',
+                    success:function(data){
+                        alert(data);
+                    }
+                });
+            </script>
         </div><!-- /.page-content -->
     </div><!-- /.main-content -->
+
 </block>

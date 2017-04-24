@@ -15,6 +15,17 @@ class MyFootstepsController extends Controller {
     }
 
     /*
+     * all info
+     * 所有的信息
+     * */
+    public function Allinfo()
+    {
+        $mod = M('my_footsteps');
+        $res = $mod->select();
+        echo json_encode($res);
+    }
+
+    /*
      * 添加我的足迹
      * */
     public function addMyFootsteps()
@@ -27,13 +38,13 @@ class MyFootstepsController extends Controller {
      * */
     public function postMyFootsteps()
     {
-        $article = D("My_footsteps");
+        $article = D("MyFootsteps");
         if (!$article->create()){ // 创建数据对象
             exit($article->getError());
         }else{
             $res = $article->add();
             if($res){
-                $this->success('内容已经上传');
+                $this->success('内容已经上传成功');
             }else{
                 $this->error('内容上传失误');
             }
