@@ -19,7 +19,7 @@ class MyFootstepsController extends Controller {
      * */
     public function addMyFootsteps()
     {
-        
+        $this->display('Life/addMyFootsteps');
     }
 
     /*
@@ -27,7 +27,15 @@ class MyFootstepsController extends Controller {
      * */
     public function postMyFootsteps()
     {
-        
+        $my_footsteps = D("MyFootstep"); // 实例化User对象
+        // 根据表单提交的POST数据创建数据对象
+        if($my_footsteps->create()){
+            $result = $my_footsteps->add(); // 写入数据到数据库
+            if($result){
+                // 如果主键是自动增长型 成功后返回值就是最新插入的值
+                $this->success('数据添加成功');
+            }
+        }
     }
 
     /*
@@ -36,5 +44,15 @@ class MyFootstepsController extends Controller {
     public function delMyFootsteps()
     {
 
+    }
+
+    /*
+     * show MyFootsteps of all
+     * */
+    public function showInfo()
+    {
+        $my_footsteps = D("MyFootstep"); // 实例化User对象
+        $res = $my_footsteps->select();
+        echo json_encode($res);
     }
 }
