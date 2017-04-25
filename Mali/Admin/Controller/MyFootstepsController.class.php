@@ -61,4 +61,15 @@ class MyFootstepsController extends Controller {
         $res = $my_footsteps->select();
         echo json_encode($res);
     }
+
+    /*
+     * 分页查看信息
+     * */
+    public function page()
+    {
+        $my_footsteps = D("MyFootstep"); // 实例化User对象
+        $num = $_GET['num'];
+        $res = $my_footsteps->page($num,1)->select();
+        echo json_encode($res);
+    }
 }

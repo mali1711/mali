@@ -14,7 +14,7 @@
 </head>
 <body>
 <center>
-    <h3><a href="/www/mali/index.php/Admin/MyFootsteps/addMyFootstepse">返回</a>||添加内容：</h3>
+    <h3><a href="/www/mali/index.php/Admin/MyFootsteps/MyFootstepsList">返回</a>||添加内容：</h3>
     <form action="/www/mali/index.php/Admin/MyFootsteps/postMyFootsteps" method="post">
         <div class="form-group" style="padding-bottom: 50px; width:83%;">
             <label class="col-sm-2 control-label" style="padding-left:10px;">请输入文章的标题</label>
