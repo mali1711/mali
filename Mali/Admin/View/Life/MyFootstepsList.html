@@ -44,17 +44,58 @@
 
             <div class="row">
                 <div class="col-xs-12">
-                    <!-- PAGE CONTENT BEGINS -->
 
-                    <table id="grid-table"></table>
+                    <table class="table table-striped">
+                        <caption><h3>足迹列表</h3></caption>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>标题</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody id="MyFootsteps_content">
 
-                    <div id="grid-pager"></div>
+                        </tbody>
+                    </table>
+                    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+                    <script>
+                        $.ajax({
+                            url:"__MODULE__/MyFootsteps/showInfo",
+                            type:"get",
+                            dataType:"json",
+                            async:true,
+                            data:'',
+                            success:function(data){
+                                $.each(data, function (n, value) {
+                                 var tr = "<tr class=fid"+value.my_footsteps_id+">";
+                                    tr += "<td>"+value.my_footsteps_id+"</td>";
+                                    tr += "<td>"+value.my_footsteps_title+"</td>";
+                                    tr += "<td>"+"<a href='javascript:doDel("+value.my_footsteps_id+")'>删除</a>"+'||'+"<a href='#'>详情</a>"+"</td>";
+                                    tr += "</tr>";
+                                   $("#MyFootsteps_content").append(tr);
+                                });
+                            }
+                        });
 
-                    <script type="text/javascript">
-                        var $path_base = "/";//this will be used in gritter alerts containing images
+                        function doDel(id){
+                            //执行ajax删除
+                            //ajax加载学生信息
+                            $.ajax({
+                                url:"__MODULE__/MyFootsteps/delMyFootsteps",
+                                type:"get",
+                                dataType:"text",
+                                async:true,
+                                data:"my_footsteps_id="+id,
+                                success:function(data){
+                                    if(data>0){
+                                        alert('删除成功！');
+                                        $("tr.fid"+id).remove();
+                                    }
+                                }
+                            });
+                        }
                     </script>
-
-                    <!-- PAGE CONTENT ENDS -->
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.page-content -->

@@ -43,7 +43,13 @@ class MyFootstepsController extends Controller {
      * */
     public function delMyFootsteps()
     {
-
+        $my_footsteps = D("MyFootstep"); // 实例化User对象
+        $res = $my_footsteps->delete($_GET['my_footsteps_id']);
+        if($res){
+            echo $res;
+        }else{
+            echo 0;
+        }
     }
 
     /*
