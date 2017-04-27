@@ -53,34 +53,8 @@
         <div class="row-fluid pull-left" style="width: 28%;">
             <div class="span3">
                 <div class="sidebar-nav">
-                    <ul class="nav nav-list">
-                        <li class="nav-header">后端</li>
-                        <li class="active">
-                            <a href="#" class="text-success">PHP</a></li>
-                        <li>
-                            <a href="#" class="text-success">Mysql</a></li>
-                        <li>
-                            <a href="#" class="text-success">Linux</a></li>
-                        <li>
-                            <a href="#" class="text-success">微信开发</a></li>
-                        <li>
-                            <a href="#" class="text-success">Redis缓存技术</a></li>
-                        <li>
-                            <a href="#" class="text-success">CMS</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-success">更多</a>
-                        </li>
-                        <li class="nav-header">前端</li>
-                        <li>
-                            <a href="#" class="text-success">HTML5+CSS3</a></li>
-                        <li>
-                            <a href="#" class="text-success">JavaScript</a></li>
-                        <li>
-                            <a href="#" class="text-success">MySQL</a></li>
-                        <li>
-                            <a href="#" class="text-success">Bootstrap</a></li>
-                        <li>   <a href="#" class="text-success">更多</a></li>
+                    <ul class="nav nav-list typelist">
+
                     </ul>
                 </div><!--/.well -->
             </div><!--/span-->
@@ -290,6 +264,28 @@
          });
      }
      });
+    /*
+     * 加载文章首页的列表页面
+    * */
+    $.ajax({
+        url:"__MODULE__/Index/typeList1",
+        type:"get",
+        dataType:"json",
+        async:true,
+        data:'',
+        success:function(data){
+            $.each(data, function (n, value) {
+/*                后端</li>
+                Mysql*/
+                var st = '';
+                if(value.type_pid==0){
+                    st += '<li class="nav-header">'+value.type_name+'<li>';
+                }else if(value.type_pid!==0)
+                st += '<li><a href="#" class="text-success">'+value.type_name+'</a></li>';
+                $(".typelist").append(st);
+            });
+        }
+    });
 </script>
 </body>
 </html>
