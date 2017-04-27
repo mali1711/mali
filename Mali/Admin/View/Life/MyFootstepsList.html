@@ -38,6 +38,7 @@
                         <i class="icon-double-angle-right"></i>
                         Dynamic tables and grids using jqGrid plugin
                     </small>
+<<<<<<< HEAD
                     <a href="__MODULE__/MyFootsteps/addMyFootsteps" class="pull-right">添加新足迹</a>
                 </h1>
             </div><!-- /.page-header -->
@@ -180,6 +181,25 @@
                     </script>
                 </div><!-- /.col -->
             </div><!-- /.row -->
+=======
+                    <a class="pull-right" href="__MODULE__/MyFootsteps/addMyFootsteps">添加新的足迹</a>
+                </h1>
+            </div><!-- /.page-header -->
+            <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+            <script type="text/javascript">
+                $.ajax({
+                    url:"__MODULE__/MyFootsteps/Allinfo",
+                    type:"get",
+                    dataType:"json",
+                    async:true,
+                    data:'',
+                    success:function(data){
+                        alert(data);
+                    }b
+                });
+            </script>
+>>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
         </div><!-- /.page-content -->
     </div><!-- /.main-content -->
+
 </block>

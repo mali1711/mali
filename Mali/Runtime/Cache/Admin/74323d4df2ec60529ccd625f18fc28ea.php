@@ -753,10 +753,17 @@
                         <i class="icon-double-angle-right"></i>
                         Dynamic tables and grids using jqGrid plugin
                     </small>
+<<<<<<< HEAD
                     <a href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps" class="pull-right">添加新足迹</a>
+=======
+                    <a class="pull-right" href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps">添加新的足迹</a>
+>>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
                 </h1>
             </div><!-- /.page-header -->
+            <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+            <script type="text/javascript">
 
+<<<<<<< HEAD
             <div class="row">
                 <div class="col-xs-12">
 
@@ -895,8 +902,22 @@
                     </script>
                 </div><!-- /.col -->
             </div><!-- /.row -->
+=======
+                $.ajax({
+                    url:"/www/mali/index.php/Admin/MyFootsteps/Allinfo",
+                    type:"get",
+                    dataType:"json",
+                    async:true,
+                    data:'',
+                    success:function(data){
+                        alert(data);
+                    }
+                });
+            </script>
+>>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
         </div><!-- /.page-content -->
     </div><!-- /.main-content -->
+
 
         <!--内容显示end-->
         <div class="ace-settings-container" id="ace-settings-container">
@@ -987,5 +1008,9 @@
 <script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
 
 <!-- inline scripts related to this page -->
+<<<<<<< HEAD
+=======
+
+>>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,21 +14,15 @@
 </head>
 <body>
 <center>
-    <h3><a href="/www/mali/index.php/Admin/MyFootsteps/MyFootstepsList">返回</a>||添加内容：</h3>
-    <form action="/www/mali/index.php/Admin/MyFootsteps/postMyFootsteps" method="post">
+    <h3><a href="__MODULE__/MyFootsteps/MyFootstepsList">返回</a>||添加内容：</h3>
+    <form action="__MODULE__/MyFootsteps/postMyFootsteps" method="post">
         <div class="form-group" style="padding-bottom: 50px; width:83%;">
-<<<<<<< HEAD
-            <label class="col-sm-2 control-label" style="padding-left:10px;">请输入文章的标题</label>
-            <div class="col-sm-10">
-                <input class="form-control" id="focusedInput" name="my_footsteps_title" type="text"  value="">
-=======
             <label class="col-sm-2 control-label" style="padding-left:10px;">请输入标题</label>
             <div class="col-sm-10">
                 <input class="form-control" id="focusedInput" name="my_footsteps_title" type="text">
->>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
             </div>
         </div>
-        <input type="hidden" name="article_type_id" value="<?php echo ($data["type_id"]); ?>">
+        <input type="hidden" name="article_type_id" value="{$data.type_id}">
         <!-- 加载编辑器的容器 -->
         <div>
             <script id="container" style="width:90%;height:500px;" name="my_footsteps_content" type="text/plain"></script>
@@ -38,9 +32,9 @@
     </form>
 </center>
 <!-- 配置文件 -->
-<script type="text/javascript" src="/www/mali/Public/Style_Admin/utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Style_Admin/utf8-php/ueditor.config.js"></script>
 <!-- 编辑器源码文件 -->
-<script type="text/javascript" src="/www/mali/Public/Style_Admin/utf8-php/ueditor.all.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Style_Admin/utf8-php/ueditor.all.js"></script>
 <!-- 实例化编辑器 -->
 <script type="text/javascript">
     var editor = UE.getEditor('container');
