@@ -58,8 +58,8 @@ class MyFootstepsController extends Controller {
     public function showInfo()
     {
         $my_footsteps = D("MyFootstep"); // 实例化User对象
-        $res = $my_footsteps->select();
-        echo json_encode($res);
+        $data = $my_footsteps->select();
+        echo json_encode($data);
     }
 
     /*
@@ -68,8 +68,22 @@ class MyFootstepsController extends Controller {
     public function page()
     {
         $my_footsteps = D("MyFootstep"); // 实例化User对象
+        $count = $my_footsteps->count();
         $num = $_GET['num'];
-        $res = $my_footsteps->page($num,1)->select();
+        $page = $count/15;//一共可以分多少页
+        $res['data'] = $my_footsteps->page($num,15)->select();
+        $res['page'] = ceil($page);
         echo json_encode($res);
     }
+
+    /*
+     * 分页总页数
+     * */
+    public function pageCount()
+    {
+        $my_footsteps = D("MyFootstep"); // 实例化User对象
+        $num = ceil($my_footsteps->count()/15);
+        echo $num;
+    }
+
 }
