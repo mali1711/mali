@@ -64,10 +64,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="./myPootprint.html">我的足迹 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="/www/mali/index.php/Home/MyFootPrint/index/">我的足迹 <span class="sr-only">(current)</span></a></li>
                 <li><a href="/www/mali/index.php/Home/index/myGame">我的游戏</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多 <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">开发工具<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">phpStrom软件</a></li>
                         <li><a href="#">xshell和xftp</a></li>

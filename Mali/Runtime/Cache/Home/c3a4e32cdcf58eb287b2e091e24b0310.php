@@ -36,10 +36,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/www/mali/index.php/Home/index/myPootprint">我的足迹 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="/www/mali/index.php/Home/MyFootPrint/index/">我的足迹 <span class="sr-only">(current)</span></a></li>
                 <li><a href="/www/mali/index.php/Home/index/myGame">我的游戏</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多 <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">开发工具<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">phpStrom软件</a></li>
                         <li><a href="#">xshell和xftp</a></li>
@@ -78,32 +78,23 @@
 <!--    <img style="width: 80px;" src="./images/d33a00e9ce1e8e9e5504b5e060ba5b52.jpg" class="img-circle">-->
     <div class="row">
         <ul class="media-list">
-            <li class="media">
+            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li class="media">
             <div class="media-left">
                 <a href="#">
                     <img style="width: 50px;" src="/www/mali/Public/Style/images/d33a00e9ce1e8e9e5504b5e060ba5b52.jpg" class="media-object img-circle">
                 </a>
             </div>
             <div class="media-body thumbnail">
-                <h4 class="media-heading">小猫爱吃鱼 <small>  __2017年3月17</small></h4>
-                我还是和以前一样！就像高三的23班后门等你的那个我，你不来！我不走....
+                <h4 class="media-heading">张三 <small>  <?php echo ($vo["my_footsteps_addtime"]); ?></small></h4>
+                <?php echo ($vo["my_footsteps_title"]); ?>
             </div>
-        </li>
-            <li class="media">
-                <div class="media-left">
-                    <a href="#">
-                        <img style="width: 50px;" src="/www/mali/Public/Style/images/d33a00e9ce1e8e9e5504b5e060ba5b52.jpg" class="media-object img-circle">
-                    </a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">小猫爱吃鱼 <small>  __2017年3月17</small></h4>
-                    我还是和以前一样！就像高三的23班后门等你的那个我，你不来！我不走....
-                </div>
-            </li>
+             </li><?php endforeach; endif; ?>
         </ul>
 
     </div>
+
 </div>
+<h4><?php echo ($page); ?></h4>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

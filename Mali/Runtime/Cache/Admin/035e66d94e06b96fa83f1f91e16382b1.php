@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>树型图 - 素材火 Admin</title>
+    <title>jq网格 - 素材火 Admin</title>
 
-    <meta name="description" content="with selectable items(single &amp; multiple) and custom icons" />
+    <meta name="description" content="Dynamic tables and grids using jqGrid plugin" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- basic styles -->
@@ -17,6 +17,10 @@
     <![endif]-->
 
     <!-- page specific plugin styles -->
+
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/jquery-ui-1.10.3.full.min.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/datepicker.css" />
+    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ui.jqgrid.css" />
 
     <!-- fonts -->
 
@@ -1032,8 +1036,9 @@
 
 <!-- page specific plugin scripts -->
 
-<script src="/www/mali/Public/Style_Admin/assets/js/fuelux/data/fuelux.tree-sampledata.js"></script>
-<script src="/www/mali/Public/Style_Admin/assets/js/fuelux/fuelux.tree.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/date-time/bootstrap-datepicker.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jqGrid/jquery.jqGrid.min.js"></script>
+<script src="/www/mali/Public/Style_Admin/assets/js/jqGrid/i18n/grid.locale-en.js"></script>
 
 <!-- ace scripts -->
 
@@ -1041,47 +1046,5 @@
 <script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
 
 <!-- inline scripts related to this page -->
-
-<script type="text/javascript">
-    jQuery(function($){
-
-        $('#tree1').ace_tree({
-            dataSource: treeDataSource ,
-            multiSelect:true,
-            loadingHTML:'<div class="tree-loading"><i class="icon-refresh icon-spin blue"></i></div>',
-            'open-icon' : 'icon-minus',
-            'close-icon' : 'icon-plus',
-            'selectable' : true,
-            'selected-icon' : 'icon-ok',
-            'unselected-icon' : 'icon-remove'
-        });
-
-        $('#tree2').ace_tree({
-            dataSource: treeDataSource2 ,
-            loadingHTML:'<div class="tree-loading"><i class="icon-refresh icon-spin blue"></i></div>',
-            'open-icon' : 'icon-folder-open',
-            'close-icon' : 'icon-folder-close',
-            'selectable' : false,
-            'selected-icon' : null,
-            'unselected-icon' : null
-        });
-
-
-
-        /**
-         $('#tree1').on('loaded', function (evt, data) {
-		});
-
-         $('#tree1').on('opened', function (evt, data) {
-		});
-
-         $('#tree1').on('closed', function (evt, data) {
-		});
-
-         $('#tree1').on('selected', function (evt, data) {
-		});
-         */
-    });
-</script>
 </body>
 </html>
