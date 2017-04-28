@@ -726,19 +726,19 @@
             <ul class="breadcrumb">
                 <li>
                     <i class="icon-home home-icon"></i>
-                    <a href="#">Home</a>
+                    <a href="#">Admin</a>
                 </li>
 
                 <li>
-                    <a href="#">Tables</a>
+                    <a href="#">我的游戏</a>
                 </li>
-                <li class="active">jqGrid plugin</li>
+                <li class="active">游戏操作</li>
             </ul><!-- .breadcrumb -->
 
             <div class="nav-search" id="nav-search">
                 <form class="form-search">
 								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<input placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" type="text">
 									<i class="icon-search nav-search-icon"></i>
 								</span>
                 </form>
@@ -748,173 +748,103 @@
         <div class="page-content">
             <div class="page-header">
                 <h1>
-                    jqGrid
+                    游戏操作
                     <small>
                         <i class="icon-double-angle-right"></i>
-                        Dynamic tables and grids using jqGrid plugin
+                        游戏上传
                     </small>
-                    <a href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps" class="pull-right">添加新足迹</a>
                 </h1>
             </div><!-- /.page-header -->
 
             <div class="row">
                 <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
 
-                    <table class="table table-striped">
-                        <caption><h3>足迹列表</h3></caption>
-                        <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>标题</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody id="MyFootsteps_content">
-                        </tbody>
-                    </table>
-                    <div id="footsPage">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 游戏上传 </label>
 
-                        <ul class="pagination">
+                            <div class="col-sm-9">
+                                <input id="id-input-file-6" type="file">
+                            </div>
+                        </div>
 
-                        </ul>
-                    </div>
-                    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-                    <script>
-                        //页面加载显示出所有的内容
-                        allinfo();
-                        pageNum();
-                        function pageNum() {
-                            $.ajax({
-                                url:"/www/mali/index.php/Admin/MyFootsteps/pageCount",
-                                type:"get",
-                                dataType:"text",
-                                async:true,
-                                data:'',
-                                success:function(num){
-                                    pageli(num);
-                                    pagebuttonClick();
-                                }
-                            });
-                        }
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 游戏名字 </label>
 
-                        /*
-                         * 创建分页中的li标签
-                         * */
+                            <div class="col-sm-9">
+                                <input id="form-field-1" placeholder="游戏名字" class="col-xs-10 col-sm-5" type="text">
+                            </div>
+                        </div>
 
-                        function pageli(num) {
-                            num = parseInt(num);
-                            var html = '<li><a class="pagebutton" href="#">back</a></li>';
-                            for (var i=1;i<=num;i++)
-                            {
-                                html += '<li><a class="pagebutton" href="#">'+i+'</a></li>';
-                            }
-                            html += '<li><a class="pagebutton" href="#">next</a></li>';
-                            $('.pagination').append(html);
-                        }
+                        <div class="space-4"></div>
 
-                        /*
-                         * 实现分页效果
-                         * 1、实现获取li标签内容信息
-                         * */
-                        var num = parseInt(1);
-                        function pagebuttonClick() {
-                            $(".pagebutton").click(function(){
-                                var html = $(this).html();
-                                if(html!=='next' && html!=='back'){
-                                    num = parseInt(html);
-                                }else if(html=='back'){
-                                    num--;
-                                    if(num<=1){
-                                        num = 1
-                                    }
-                                }else if(html=='next'){
-                                    num++;
-                                    if(num>=5){
-                                        num = 5
-                                    }
-                                }
-                                $.ajax({
-                                    url:"/www/mali/index.php/Admin/MyFootsteps/page",
-                                    type:"get",
-                                    dataType:"json",
-                                    async:true,
-                                    data:"num="+num,
-                                    success:function(res){
-                                        data = res.data;
-                                        if(data==''){
-                                            alert('没有数据啊，大哥');
-                                        }
-                                        $(".delpage").remove()
-                                        info(data);
-                                    }
-                                });
-                            });
-                        }
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 网盘下载地址 </label>
 
-                        //生成表格
-                        function info(data) {
-                            $.each(data, function (n, value) {
-                                var tr = "<tr class=delpage fid"+value.my_footsteps_id+">";
-                                tr += "<td>"+value.my_footsteps_id+"</td>";
-                                tr += "<td>"+value.my_footsteps_title+"</td>";
-                                tr += "<td>"+"<a href='javascript:doDel("+value.my_footsteps_id+")'>删除</a>"+'||'+"<a href='#'>详情</a>"+"</td>";
-                                tr += "</tr>";
-                                $("#MyFootsteps_content").append(tr);
-                            });
-                        }
-                        function allinfo() {
-                            $.ajax({
-                                url:"/www/mali/index.php/Admin/MyFootsteps/showInfo",
-                                type:"get",
-                                dataType:"json",
-                                async:true,
-                                data:'',
-                                success:function(data){
-                                    info(data);
-                                }
-                            });
-                        }
+                            <div class="col-sm-9">
+                                <input id="form-field-2" placeholder="下载地址" class="col-xs-10 col-sm-5" type="text">
+                                <span class="help-inline col-xs-12 col-sm-7">
 
-                        function doDel(id){
-                            //执行ajax删除
-                            //ajax加载学生信息
-                            $.ajax({
-                                url:"/www/mali/index.php/Admin/MyFootsteps/delMyFootsteps",
-                                type:"get",
-                                dataType:"text",
-                                async:true,
-                                data:"my_footsteps_id="+id,
-                                success:function(data){
-                                    if(data>0){
-                                        alert('删除成功！');
-                                        $("tr.fid"+id).remove();
-                                    }
-                                }
-                            });
-                        }
-                    </script>
+											</span>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 网盘下载密码 </label>
+
+                            <div class="col-sm-9">
+                                <input id="form-field-3" placeholder="下载密码" class="col-xs-10 col-sm-5" type="text">
+                                <span class="help-inline col-xs-12 col-sm-7">
+
+											</span>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-4">游戏大小</label>
+
+                            <div class="col-sm-9">
+                                <input class="input-sm" id="form-field-4" placeholder="填入游戏大小" type="text">
+                                <div class="space-2"></div>
+
+                                <div class="help-block" id="input-size-slider"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-tags">游戏简介</label>
+
+                            <div class="col-sm-9">
+                                <textarea type="text" cols="41" name="tags" id="form-field-tags" placeholder="请输入游戏的简介"> </textarea>
+                            </div>
+                        </div>
+
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button class="btn btn-info" type="button">
+                                    <i class="icon-ok bigger-110"></i>
+                                    Submit
+                                </button>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <button class="btn" type="reset">
+                                    <i class="icon-undo bigger-110"></i>
+                                    Reset
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
                 </div><!-- /.col -->
             </div><!-- /.row -->
-=======
-                    <a class="pull-right" href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps">添加新的足迹</a>
-                </h1>
-            </div><!-- /.page-header -->
-            <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-            <script type="text/javascript">
-                $.ajax({
-                    url:"/www/mali/index.php/Admin/MyFootsteps/Allinfo",
-                    type:"get",
-                    dataType:"json",
-                    async:true,
-                    data:'',
-                    success:function(data){
-                        alert(data);
-                    }b
-                });
-            </script>
->>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
         </div><!-- /.page-content -->
-    </div><!-- /.main-content -->
+    </div>
 
 
         <!--内容显示end-->
@@ -1004,11 +934,5 @@
 
 <script src="/www/mali/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
 <script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
-
-<!-- inline scripts related to this page -->
-<<<<<<< HEAD
-=======
-
->>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
 </body>
 </html>

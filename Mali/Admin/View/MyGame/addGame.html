@@ -1,0 +1,133 @@
+<extend name="Layout:Layout" />
+
+<block name="main-content">
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#">Admin</a>
+                </li>
+
+                <li>
+                    <a href="#">我的游戏</a>
+                </li>
+                <li class="active">游戏操作</li>
+            </ul><!-- .breadcrumb -->
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search">
+								<span class="input-icon">
+									<input placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" type="text">
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    游戏操作
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        游戏上传
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 游戏上传 </label>
+
+                            <div class="col-sm-9">
+                                <input id="id-input-file-6" type="file">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 游戏名字 </label>
+
+                            <div class="col-sm-9">
+                                <input id="form-field-1" placeholder="游戏名字" class="col-xs-10 col-sm-5" type="text">
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 网盘下载地址 </label>
+
+                            <div class="col-sm-9">
+                                <input id="form-field-2" placeholder="下载地址" class="col-xs-10 col-sm-5" type="text">
+                                <span class="help-inline col-xs-12 col-sm-7">
+
+											</span>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 网盘下载密码 </label>
+
+                            <div class="col-sm-9">
+                                <input id="form-field-3" placeholder="下载密码" class="col-xs-10 col-sm-5" type="text">
+                                <span class="help-inline col-xs-12 col-sm-7">
+
+											</span>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-4">游戏大小</label>
+
+                            <div class="col-sm-9">
+                                <input class="input-sm" id="form-field-4" placeholder="填入游戏大小" type="text">
+                                <div class="space-2"></div>
+
+                                <div class="help-block" id="input-size-slider"></div>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-tags">游戏简介</label>
+
+                            <div class="col-sm-9">
+                                <textarea type="text" cols="41" name="tags" id="form-field-tags" placeholder="请输入游戏的简介"> </textarea>
+                            </div>
+                        </div>
+
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button class="btn btn-info" type="button">
+                                    <i class="icon-ok bigger-110"></i>
+                                    Submit
+                                </button>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <button class="btn" type="reset">
+                                    <i class="icon-undo bigger-110"></i>
+                                    Reset
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div>
+
+</block>

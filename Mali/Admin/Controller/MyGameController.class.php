@@ -4,21 +4,21 @@
  * */
 namespace Admin\Controller;
 use Think\Controller;
-class MyGamesController extends Controller {
+class MyGameController extends Controller {
     /*
-     * 所有的游戏列表页面
+     * 显示后台游戏列表
      * */
     public function index()
     {
-        
+        $this->display('MyGame/GameList');
     }
 
     /*
      * 添加新的游戏
      * */
-    public function add()
+    public function addGame()
     {
-        
+        $this->display('MyGame/addGame');
     }
     /*
      * 修改游戏

@@ -38,7 +38,7 @@ class MyFootstepsController extends Controller {
      * */
     public function postMyFootsteps()
     {
-<<<<<<< HEAD
+
         $my_footsteps = D("MyFootstep"); // 实例化User对象
         // 根据表单提交的POST数据创建数据对象
         if($my_footsteps->create()){
@@ -46,7 +46,7 @@ class MyFootstepsController extends Controller {
             if($result){
                 // 如果主键是自动增长型 成功后返回值就是最新插入的值
                 $this->success('数据添加成功');
-=======
+
         $article = D("MyFootsteps");
         if (!$article->create()){ // 创建数据对象
             exit($article->getError());
@@ -56,10 +56,12 @@ class MyFootstepsController extends Controller {
                 $this->success('内容已经上传成功');
             }else{
                 $this->error('内容上传失误');
->>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
+
             }
         }
+            }
     }
+}
 
     /*
      * 执行我要删除的动作
