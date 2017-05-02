@@ -760,23 +760,23 @@
                             <div class="table-responsive">
                                 <table id="sample-table-2" class="table table-striped table-bordered table-hover">
                                     <thead>
-                                         <tr>
+                                    <tr>
                                         <th class="center">
                                             <label>
                                                 <input type="checkbox" class="ace" />
                                                 <span class="lbl"></span>
                                             </label>
                                         </th>
-                                        <th>标题</th>
-                                        <th>发表用户</th>
+                                        <th>照片</th>
+                                        <th>游戏名字</th>
                                         <th class="hidden-480">状态</th>
-                                         <th class="hidden-480">添加时间</th>
+                                        <th class="hidden-480">添加时间</th>
                                         <th>操作</th>
                                     </tr>
                                     </thead>
 
                                     <tbody>
-                                        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                                    <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
                                             <td class="center">
                                                 <label>
                                                     <input type="checkbox" class="ace" />
@@ -785,11 +785,11 @@
                                             </td>
 
                                             <td>
-                                                <a href="#"><?php echo ($vo["article_title"]); ?></a>
+                                                <a href="#"><?php echo ($vo["my_game_name"]); ?></a>
                                             </td>
-                                            <td><?php echo ($vo["users"]); ?></td>
+                                            <td><?php echo ($vo["my_game_name"]); ?></td>
                                             <td class="hidden-480"><span class="label label-sm label-warning">Expiring</span></td>
-                                            <td><?php echo ($vo["article_addtime"]); ?></td>
+                                            <td><?php echo ($vo["my_game_addtime"]); ?></td>
                                             <td>
                                                 <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
                                                     <a class="blue" href="/www/mali/index.php/Admin/Article/detailsArticle?id=<?php echo ($vo["article_id"]); ?>">

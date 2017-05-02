@@ -1973,11 +1973,5 @@
 
 <script src="/www/mali/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
 <script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
-
-<!-- inline scripts related to this page -->
-<<<<<<< HEAD
-=======
-
->>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
 </body>
 </html>
