@@ -70,17 +70,17 @@
                                             </td>
 
                                             <td>
-                                                <a href="#">{$vo.my_game_name}</a>
+                                                <a href="#"><img style="width: 50px;" src="__PUBLIC__/Upload/MyGame/{$vo.my_game_pic}"></a>
                                             </td>
                                             <td>{$vo.my_game_name}</td>
                                             <td class="hidden-480"><span class="label label-sm label-warning">Expiring</span></td>
                                             <td>{$vo.my_game_addtime}</td>
                                             <td>
                                                 <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-                                                    <a class="blue" href="__MODULE__/Article/detailsArticle?id={$vo.article_id}">
+                                                    <a class="blue" href="__MODULE__/MyGame/update?id={$vo.my_game_id}">
                                                         <i class="icon-zoom-in bigger-130"></i>
                                                     </a>
-                                                    <a class="red" href="__MODULE__/Article/delArticle?id={$vo.article_id}">
+                                                    <a class="red" href="__MODULE__/MyGame/del?id={$vo.my_game_id}">
                                                         <i class="icon-trash bigger-130"></i>
                                                     </a>
                                                 </div>

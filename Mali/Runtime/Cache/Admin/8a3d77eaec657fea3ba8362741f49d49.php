@@ -785,17 +785,17 @@
                                             </td>
 
                                             <td>
-                                                <a href="#"><?php echo ($vo["my_game_name"]); ?></a>
+                                                <a href="#"><img style="width: 50px;" src="/www/mali/Public/Upload/MyGame/<?php echo ($vo["my_game_pic"]); ?>"></a>
                                             </td>
                                             <td><?php echo ($vo["my_game_name"]); ?></td>
                                             <td class="hidden-480"><span class="label label-sm label-warning">Expiring</span></td>
                                             <td><?php echo ($vo["my_game_addtime"]); ?></td>
                                             <td>
                                                 <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-                                                    <a class="blue" href="/www/mali/index.php/Admin/Article/detailsArticle?id=<?php echo ($vo["article_id"]); ?>">
+                                                    <a class="blue" href="/www/mali/index.php/Admin/MyGame/update?id=<?php echo ($vo["my_game_id"]); ?>">
                                                         <i class="icon-zoom-in bigger-130"></i>
                                                     </a>
-                                                    <a class="red" href="/www/mali/index.php/Admin/Article/delArticle?id=<?php echo ($vo["article_id"]); ?>">
+                                                    <a class="red" href="/www/mali/index.php/Admin/MyGame/del?id=<?php echo ($vo["my_game_id"]); ?>">
                                                         <i class="icon-trash bigger-130"></i>
                                                     </a>
                                                 </div>
