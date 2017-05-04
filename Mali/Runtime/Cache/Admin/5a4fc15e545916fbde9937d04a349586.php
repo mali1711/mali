@@ -482,6 +482,12 @@
                                 我的足迹
                             </a>
                         </li>
+                        <li>
+                            <a href="/www/mali/index.php/Admin/MyGame/index">
+                                <i class="icon-double-angle-right"></i>
+                                我的游戏
+                            </a>
+                        </li>
 
                         <li>
                             <a href="jqgrid.html">

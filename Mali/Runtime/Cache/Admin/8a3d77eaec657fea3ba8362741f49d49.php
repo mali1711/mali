@@ -409,20 +409,6 @@
                         </li>
 
                         <li>
-                            <a href="jquery-ui.html">
-                                <i class="icon-double-angle-right"></i>
-                                jQuery UI
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="nestable-list.html">
-                                <i class="icon-double-angle-right"></i>
-                                Nestable Lists
-                            </a>
-                        </li>
-
-                        <li>
                             <a href="#" class="dropdown-toggle">
                                 <i class="icon-double-angle-right"></i>
 
@@ -480,6 +466,12 @@
                             <a href="/www/mali/index.php/Admin/MyFootsteps/MyFootstepsList">
                                 <i class="icon-double-angle-right"></i>
                                 我的足迹
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/www/mali/index.php/Admin/MyGame/index">
+                                <i class="icon-double-angle-right"></i>
+                                我的游戏
                             </a>
                         </li>
 
@@ -730,9 +722,9 @@
                 </li>
 
                 <li>
-                    <a href="#">Tables</a>
+                    <a href="#">生活类</a>
                 </li>
-                <li class="active">Simple &amp; Dynamic</li>
+                <li class="active">游戏列表</li>
             </ul><!-- .breadcrumb -->
 
             <div class="nav-search" id="nav-search">
@@ -752,9 +744,9 @@
                     <!-- PAGE CONTENT BEGINS -->
                     <div class="row">
                         <div class="col-xs-12">
-                            <h3 class="header smaller lighter blue">文章信息表</h3>
+                            <h3 class="header smaller lighter blue"> <a href="/www/mali/index.php/Admin/MyGame/addGame">添加游戏</a></h3>
                             <div class="table-header">
-                                文章信息表
+                                游戏列表
                             </div>
 
                             <div class="table-responsive">
@@ -792,6 +784,9 @@
                                             <td><?php echo ($vo["my_game_addtime"]); ?></td>
                                             <td>
                                                 <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+                                                    <a class="green" href="/www/mali/index.php/Admin/MyGame/detail?id=<?php echo ($vo["my_game_id"]); ?>">
+                                                        <i class="icon-edit bigger-130"></i>
+                                                    </a>
                                                     <a class="blue" href="/www/mali/index.php/Admin/MyGame/update?id=<?php echo ($vo["my_game_id"]); ?>">
                                                         <i class="icon-zoom-in bigger-130"></i>
                                                     </a>

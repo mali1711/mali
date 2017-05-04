@@ -85,7 +85,7 @@
                 <button type="submit" class="btn btn-default">查找</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="./PersonalCenter.html">个人介绍</a></li>
+                <li><a href="/www/mali/index.php/Home/index/PersonalCenter">个人介绍</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多选项 <span class="caret"></span></a>
                     <ul class="dropdown-menu">

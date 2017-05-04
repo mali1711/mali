@@ -65,6 +65,9 @@ class IndexController extends Controller {
      * */
     public function myGame()
     {
+        $res = D('myGame');
+        $list = $res->select();
+        $this->assign('list',$list);
         $this->display('Index/myGame');
     }
 

@@ -482,6 +482,12 @@
                                 我的足迹
                             </a>
                         </li>
+                        <li>
+                            <a href="/www/mali/index.php/Admin/MyGame/index">
+                                <i class="icon-double-angle-right"></i>
+                                我的游戏
+                            </a>
+                        </li>
 
                         <li>
                             <a href="jqgrid.html">
@@ -1004,11 +1010,5 @@
 
 <script src="/www/mali/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
 <script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
-
-<!-- inline scripts related to this page -->
-<<<<<<< HEAD
-=======
-
->>>>>>> b879eae58a314d768cfdf4fb8ff7be531c03561e
 </body>
 </html>

@@ -37,7 +37,7 @@ class MyGameController extends Controller {
         }else{
             $res = $my_game->add();
             if($res){
-                $this->success('游戏信息上传成功');
+                $this->success('游戏信息上传成功',U('MyGame/index'));
             }else{
                 die;
                 $this->error('游戏信息上传失败');
@@ -57,7 +57,14 @@ class MyGameController extends Controller {
      * */
     public function del()
     {
-
+        $MyGame = D('my_game');
+        $id = $_GET['id'];
+        $res = $MyGame->delete($id);
+        if($res){
+            $this->success('删除成功',U('MyGame/index'));
+        }else{
+            $this->error('删除失败',U('MyGame/index'));
+        }
     }
 
     /*
