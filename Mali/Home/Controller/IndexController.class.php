@@ -84,17 +84,6 @@ class IndexController extends Controller {
  * */
     public function typeList()
     {
-        $type = M('type');
-        $list = $type->where('type_pid=0')->select();
-        foreach($list as $k=>$v){
-            $id = $v['type_id'];
-            $arr = $type->where("type_pid=$id")->select();
-            $list[$k]['childType'][]= $arr;
-        }
-        dump($list);
-    }
-    public function typeList1()
-    {
         $type = D('Type');
         $list = $type->order('concat(type_path,type_id)')->select();
         foreach ($list as $k=>$v){
@@ -103,5 +92,13 @@ class IndexController extends Controller {
             $list[$k]['type_name'] = $str.$v['type_name'];
         }
         echo json_encode($list);
+    }
+    
+    /*
+     * info
+     * */
+    public function info()
+    {
+        echo 111;
     }
 }

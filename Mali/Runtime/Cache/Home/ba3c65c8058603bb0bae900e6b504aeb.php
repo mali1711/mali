@@ -322,7 +322,7 @@
      * 加载文章首页的列表页面
     * */
     $.ajax({
-        url:"/www/mali/index.php/Home/Index/typeList1",
+        url:"/www/mali/index.php/Home/Index/typeList",
         type:"get",
         dataType:"json",
         async:true,
@@ -335,7 +335,7 @@
                 if(value.type_pid==0){
                     st += '<li class="nav-header">'+value.type_name+'<li>';
                 }else if(value.type_pid!==0)
-                st += '<li><a href="#" class="text-success">'+value.type_name+'</a></li>';
+                st += '<li><a href="'+'/www/mali/index.php/Home/Index/info/id='+value.type_id+'"'+'class="text-success">'+value.type_name+'</a></li>';
                 $(".typelist").append(st);
             });
         }
