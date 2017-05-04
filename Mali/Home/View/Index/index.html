@@ -281,7 +281,7 @@
                 if(value.type_pid==0){
                     st += '<li class="nav-header">'+value.type_name+'<li>';
                 }else if(value.type_pid!==0)
-                st += '<li><a href="'+'__MODULE__/Index/info/id='+value.type_id+'"'+'class="text-success">'+value.type_name+'</a></li>';
+                st += '<li><a href="'+'__MODULE__/Index/info/?id='+value.type_id+'"'+'class="text-success">'+value.type_name+'</a></li>';
                 $(".typelist").append(st);
             });
         }

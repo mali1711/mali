@@ -95,10 +95,15 @@ class IndexController extends Controller {
     }
     
     /*
-     * info
+     * 获取首页分类的信息
      * */
     public function info()
     {
-        echo 111;
+        $id = $_GET['id'];
+        $data['article_type_id'] = $id;
+        $article = D('article');
+        $list = $article->where($data)->select();
+        dump($data);
+        dump($list);
     }
 }
