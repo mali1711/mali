@@ -103,7 +103,21 @@ class IndexController extends Controller {
         $data['article_type_id'] = $id;
         $article = D('article');
         $list = $article->where($data)->select();
-        dump($data);
-        dump($list);
+        $this->assign('list',$list);
+        $this->display('Index/KnowledgePoint');
+    }
+
+
+    /*
+     * 展示知识点的详情页面
+     * */
+    public function infoDetail()
+    {
+        $article = D('article');
+        $id= $_GET['id'];
+        $list = $article->find($id);
+        $list['article_content'] = htmlspecialchars_decode($list['article_content']);
+        $this->assign('list',$list);
+        $this->display('Index/KnowledgeDetail');
     }
 }

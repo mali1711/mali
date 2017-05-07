@@ -14,8 +14,8 @@
 </head>
 <body>
 <center>
-    <h3><a href="/www/mali/index.php/Admin/Index/addType">返回</a>||添加内容：</h3>
-<form action="/www/mali/index.php/Admin/Article/doAddArticle" method="post">
+    <h3><a href="/mali/index.php/Admin/Index/addType">返回</a>||添加内容：</h3>
+<form action="/mali/index.php/Admin/Article/doAddArticle" method="post">
     <div class="form-group" style="padding-bottom: 50px; width:83%;">
         <label class="col-sm-2 control-label" style="padding-left:10px;">请输入文章的标题</label>
         <div class="col-sm-10">
@@ -32,9 +32,9 @@
 </form>
 </center>
 <!-- 配置文件 -->
-<script type="text/javascript" src="/www/mali/Public/Style_Admin/utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" src="/mali/Public/Style_Admin/utf8-php/ueditor.config.js"></script>
 <!-- 编辑器源码文件 -->
-<script type="text/javascript" src="/www/mali/Public/Style_Admin/utf8-php/ueditor.all.js"></script>
+<script type="text/javascript" src="/mali/Public/Style_Admin/utf8-php/ueditor.all.js"></script>
 <!-- 实例化编辑器 -->
 <script type="text/javascript">
     var editor = UE.getEditor('container');

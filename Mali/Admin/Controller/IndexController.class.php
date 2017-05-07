@@ -16,7 +16,7 @@ class IndexController extends Controller {
         //如果$type_id有值代表的是添加的子类
         if($type_id){
             $this->assign('type_id',$type_id);
-            $this->display('index/addSubclass');
+            $this->display('Index/addSubclass');
         }else{
             $type = D('Type');
             $list = $type->order('concat(type_path,type_id)')->select();
@@ -26,7 +26,7 @@ class IndexController extends Controller {
                 $list[$k]['type_name'] = $str.$v['type_name'];
             }
             $this->assign('list',$list);
-            $this->display('index/addType');
+            $this->display('Index/addType');
         }
 
     }

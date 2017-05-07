@@ -1,0 +1,408 @@
+[ 2017-05-07T21:16:21+08:00 ] 127.0.0.1 /mali/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2017-05-07T21:16:22+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-05-07T21:17:33+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-05-07T21:17:34+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0000s ]
+ERR: 模板不存在:./Mali/Admin/View/index/addType.html
+
+[ 2017-05-07T21:17:40+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+ERR: 模板不存在:./Mali/Admin/View/index/addType.html
+
+[ 2017-05-07T21:17:49+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-05-07T21:17:52+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/treeview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+ERR: 非法操作:treeview
+
+[ 2017-05-07T21:17:54+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+ERR: 模板不存在:./Mali/Admin/View/index/addType.html
+
+[ 2017-05-07T21:18:17+08:00 ] 127.0.0.1 /mali/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-05-07T21:18:18+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0000s ]
+ERR: 模板不存在:./Mali/Admin/View/index/addType.html
+
+[ 2017-05-07T21:19:13+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-05-07T21:19:18+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2017-05-07T21:19:24+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+ERR: 模板不存在:./Mali/Admin/View/index/addSubclass.html
+
+[ 2017-05-07T21:20:27+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+ERR: 模板不存在:./Mali/Admin/View/index/addSubclass.html
+
+[ 2017-05-07T21:21:29+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2017-05-07T21:21:33+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/addArticle?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-05-07T21:21:38+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/addArticle?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-05-07T21:21:44+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/addArticle?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-05-07T21:24:01+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/doAddArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/default/mali/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/default/mali/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`article_title`,`article_type_id`,`article_content`,`article_addtime`) VALUES ('GIT代码中如果出现了错误，改怎么解决','10','&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;color: #333333;&quot;&gt;如果系统中有一些配置文件在服务器上做了配置修改,然后后续开发又新添加一些配置项的时候,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;color: #333333;&quot;&gt;在发布这个配置文件的时候,会发生代码冲突:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;error: Your local changes to the following files would be overwritten by merge:&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; protected/config/main.php&lt;/p&gt;&lt;p&gt;Please, commit your changes or stash them before you can merge.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;color: #333333;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: #333333; font-family: Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;&quot;&gt;如果希望保留生产服务器上所做的改动,仅仅并入新配置项, 处理方法如下:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;git&amp;nbsp;stash&lt;/p&gt;&lt;p&gt;git&amp;nbsp;pull&lt;/p&gt;&lt;p&gt;git&amp;nbsp;stash&amp;nbsp;pop&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: #333333; font-family: Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;&quot;&gt;然后可以使用&lt;/span&gt;&lt;a style=&quot;color: #df3434; text-decoration: none; font-family: Arial; font-size: 14px; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-weight: bold; background-color: #ffffff;&quot; title=&quot;Git知识库&quot; href=&quot;http://lib.csdn.net/base/git&quot; target=&quot;_blank&quot;&gt;Git&lt;/a&gt;&lt;span style=&quot;color: #333333; font-family: Arial; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;&quot;&gt;&amp;nbsp;diff -w +文件名 来确认代码自动合并的情况.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;如果希望用代码库中的文件完全覆盖本地工作版本. 方法如下:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;git&amp;nbsp;reset&amp;nbsp;--hard&lt;/p&gt;&lt;p&gt;git&amp;nbsp;pull&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','2017-05-07 21:24:01') [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-05-07T21:24:03+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/addArticle?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-07T21:24:04+08:00 ] 127.0.0.1 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-05-07T21:24:07+08:00 ] 127.0.0.1 /mali/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
