@@ -103,6 +103,9 @@ class IndexController extends Controller {
         $data['article_type_id'] = $id;
         $article = D('article');
         $list = $article->where($data)->select();
+        if(empty($list)){
+            $this->error('sorry,数据暂时还没有上传');
+        }
         $this->assign('list',$list);
         $this->display('Index/KnowledgePoint');
     }

@@ -11,7 +11,11 @@ class UsersController extends Controller {
      * */
     public function doMessage()
     {
-        
+        //重定向到New模块的Category操作
+        //重定向到指定的URL地址
+        redirect('/New/category/cate_id/2', 5, '页面跳转中...')
+        $this->redirect('New/category', array('cate_id' => 2), 5, '页面跳转中...');
+        redirect('/New/category/cate_id/2', 5, '页面跳转中...')
     }
 
     /*

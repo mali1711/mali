@@ -9,44 +9,44 @@
 
     <!-- basic styles -->
 
-    <link href="/www/mali/Public/Style_Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/font-awesome.min.css" />
+    <link href="/mali/Public/Style_Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/font-awesome.min.css" />
 
     <!--[if IE 7]>
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/font-awesome-ie7.min.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/font-awesome-ie7.min.css" />
     <![endif]-->
 
     <!-- page specific plugin styles -->
 
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/jquery-ui-1.10.3.full.min.css" />
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/datepicker.css" />
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ui.jqgrid.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/jquery-ui-1.10.3.full.min.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/datepicker.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/ui.jqgrid.css" />
 
     <!-- fonts -->
 
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-fonts.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/ace-fonts.css" />
 
     <!-- ace styles -->
 
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace.min.css" />
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-rtl.min.css" />
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/ace.min.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/ace-skins.min.css" />
 
     <!--[if lte IE 8]>
-    <link rel="stylesheet" href="/www/mali/Public/Style_Admin/assets/css/ace-ie.min.css" />
+    <link rel="stylesheet" href="/mali/Public/Style_Admin/assets/css/ace-ie.min.css" />
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
 
-    <script src="/www/mali/Public/Style_Admin/assets/js/ace-extra.min.js"></script>
+    <script src="/mali/Public/Style_Admin/assets/js/ace-extra.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
     <!--[if lt IE 9]>
-    <script src="/www/mali/Public/Style_Admin/assets/js/html5shiv.js"></script>
-    <script src="/www/mali/Public/Style_Admin/assets/js/respond.min.js"></script>
+    <script src="/mali/Public/Style_Admin/assets/js/html5shiv.js"></script>
+    <script src="/mali/Public/Style_Admin/assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -219,7 +219,7 @@
 
                         <li>
                             <a href="#">
-                                <img src="/www/mali/Public/Style_Admin/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+                                <img src="/mali/Public/Style_Admin/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
                                 <span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Alex:</span>
@@ -236,7 +236,7 @@
 
                         <li>
                             <a href="#">
-                                <img src="/www/mali/Public/Style_Admin/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+                                <img src="/mali/Public/Style_Admin/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
                                 <span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Susan:</span>
@@ -253,7 +253,7 @@
 
                         <li>
                             <a href="#">
-                                <img src="/www/mali/Public/Style_Admin/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+                                <img src="/mali/Public/Style_Admin/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
                                 <span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Bob:</span>
@@ -279,7 +279,7 @@
 
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="/www/mali/Public/Style_Admin/assets/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="/mali/Public/Style_Admin/assets/avatars/user.jpg" alt="Jason's Photo" />
                         <span class="user-info">
 									<small>Welcome,</small>
 									Jason
@@ -388,14 +388,14 @@
 
                     <ul class="submenu">
                         <li>
-                            <a href="/www/mali/index.php/Admin/Index/addType">
+                            <a href="/mali/index.php/Admin/Index/addType">
                                 <i class="icon-double-angle-right"></i>
                                 添加知识分类
                             </a>
                         </li>
 
                         <li>
-                            <a href="/www/mali/index.php/Admin/Article/index">
+                            <a href="/mali/index.php/Admin/Article/index">
                                 <i class="icon-double-angle-right"></i>
                                 文章列表
                             </a>
@@ -405,20 +405,6 @@
                             <a href="treeview.html">
                                 <i class="icon-double-angle-right"></i>
                                 Treeview
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="jquery-ui.html">
-                                <i class="icon-double-angle-right"></i>
-                                jQuery UI
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="nestable-list.html">
-                                <i class="icon-double-angle-right"></i>
-                                Nestable Lists
                             </a>
                         </li>
 
@@ -477,13 +463,13 @@
 
                     <ul class="submenu">
                         <li>
-                            <a href="/www/mali/index.php/Admin/MyFootsteps/MyFootstepsList">
+                            <a href="/mali/index.php/Admin/MyFootsteps/MyFootstepsList">
                                 <i class="icon-double-angle-right"></i>
                                 我的足迹
                             </a>
                         </li>
                         <li>
-                            <a href="/www/mali/index.php/Admin/MyGame/index">
+                            <a href="/mali/index.php/Admin/MyGame/index">
                                 <i class="icon-double-angle-right"></i>
                                 我的游戏
                             </a>
@@ -759,7 +745,7 @@
                         <i class="icon-double-angle-right"></i>
                         Dynamic tables and grids using jqGrid plugin
                     </small>
-                    <a href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps" class="pull-right">添加新足迹</a>
+                    <a href="/mali/index.php/Admin/MyFootsteps/addMyFootsteps" class="pull-right">添加新足迹</a>
                 </h1>
             </div><!-- /.page-header -->
 
@@ -791,7 +777,7 @@
                         pageNum();
                         function pageNum() {
                             $.ajax({
-                                url:"/www/mali/index.php/Admin/MyFootsteps/pageCount",
+                                url:"/mali/index.php/Admin/MyFootsteps/pageCount",
                                 type:"get",
                                 dataType:"text",
                                 async:true,
@@ -840,7 +826,7 @@
                                     }
                                 }
                                 $.ajax({
-                                    url:"/www/mali/index.php/Admin/MyFootsteps/page",
+                                    url:"/mali/index.php/Admin/MyFootsteps/page",
                                     type:"get",
                                     dataType:"json",
                                     async:true,
@@ -870,7 +856,7 @@
                         }
                         function allinfo() {
                             $.ajax({
-                                url:"/www/mali/index.php/Admin/MyFootsteps/showInfo",
+                                url:"/mali/index.php/Admin/MyFootsteps/showInfo",
                                 type:"get",
                                 dataType:"json",
                                 async:true,
@@ -885,7 +871,7 @@
                             //执行ajax删除
                             //ajax加载学生信息
                             $.ajax({
-                                url:"/www/mali/index.php/Admin/MyFootsteps/delMyFootsteps",
+                                url:"/mali/index.php/Admin/MyFootsteps/delMyFootsteps",
                                 type:"get",
                                 dataType:"text",
                                 async:true,
@@ -902,13 +888,13 @@
                 </div><!-- /.col -->
             </div><!-- /.row -->
 =======
-                    <a class="pull-right" href="/www/mali/index.php/Admin/MyFootsteps/addMyFootsteps">添加新的足迹</a>
+                    <a class="pull-right" href="/mali/index.php/Admin/MyFootsteps/addMyFootsteps">添加新的足迹</a>
                 </h1>
             </div><!-- /.page-header -->
             <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
             <script type="text/javascript">
                 $.ajax({
-                    url:"/www/mali/index.php/Admin/MyFootsteps/Allinfo",
+                    url:"/mali/index.php/Admin/MyFootsteps/Allinfo",
                     type:"get",
                     dataType:"json",
                     async:true,
@@ -983,32 +969,32 @@
 <!--[if !IE]> -->
 
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='/www/mali/Public/Style_Admin/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='/mali/Public/Style_Admin/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
 </script>
 
 <!-- <![endif]-->
 
 <!--[if IE]>
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='/www/mali/Public/Style_Admin/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='/mali/Public/Style_Admin/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
 </script>
 <![endif]-->
 
 <script type="text/javascript">
-    if("ontouchend" in document) document.write("<script src='/www/mali/Public/Style_Admin/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    if("ontouchend" in document) document.write("<script src='/mali/Public/Style_Admin/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>
-<script src="/www/mali/Public/Style_Admin/assets/js/bootstrap.min.js"></script>
-<script src="/www/mali/Public/Style_Admin/assets/js/typeahead-bs2.min.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/bootstrap.min.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/typeahead-bs2.min.js"></script>
 
 <!-- page specific plugin scripts -->
 
-<script src="/www/mali/Public/Style_Admin/assets/js/date-time/bootstrap-datepicker.min.js"></script>
-<script src="/www/mali/Public/Style_Admin/assets/js/jqGrid/jquery.jqGrid.min.js"></script>
-<script src="/www/mali/Public/Style_Admin/assets/js/jqGrid/i18n/grid.locale-en.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/date-time/bootstrap-datepicker.min.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/jqGrid/jquery.jqGrid.min.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/jqGrid/i18n/grid.locale-en.js"></script>
 
 <!-- ace scripts -->
 
-<script src="/www/mali/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
-<script src="/www/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/ace-elements.min.js"></script>
+<script src="/mali/Public/Style_Admin/assets/js/ace.min.js"></script>
 </body>
 </html>

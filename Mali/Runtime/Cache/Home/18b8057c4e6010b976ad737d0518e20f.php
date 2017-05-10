@@ -62,7 +62,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多选项 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./login.html">登录ro注册</a></li>
+                        <li><a href="/mali/index.php/Home/index/login">登录ro注册</a></li>
                         <li><a href="#">退出</a></li>
                         <li><a href="#">给我留言</a></li>
                         <li role="separator" class="divider">查看所有的留言</li>

@@ -1,0 +1,440 @@
+[ 2017-05-10T10:11:59+08:00 ] 221.214.73.106 /mali/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-05-10T10:12:05+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+NOTIC: [8] Undefined index: users /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/035e66d94e06b96fa83f1f91e16382b1.php 第 782 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2017-05-10T10:12:06+08:00 ] 221.214.73.106 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-05-10T10:12:10+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/addArticle?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-05-10T10:12:50+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/doAddArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/default/mali/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/default/mali/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`article_title`,`article_type_id`,`article_content`,`article_addtime`) VALUES ('phpStrom显示如何显示行号','8','&lt;p&gt;&lt;span style=&quot;font-family:SimSun&quot;&gt;1、点击file菜单，再点击settings...也可以使用Ctrl+Alt+S快捷键打开。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://photo.blog.sina.com.cn/showpic.html#blogid=68793f6a0102w6x3&amp;url=http://album.sina.com.cn/pic/001UCtfAgy6WRTWgEfKf0&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;font-family:SimSun&quot;&gt;&lt;img src=&quot;http://s1.sinaimg.cn/mw690/001UCtfAgy6WRTWgEfKf0&amp;690&quot; alt=&quot;PhpStorm默认显示行号&quot; title=&quot;PhpStorm默认显示行号&quot; width=&quot;550&quot; height=&quot;624&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:SimSun&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:SimSun&quot;&gt;2、找到Editor菜单下的Appearance子菜单，勾选show line
+numbers选项即可；如果找不到此菜单，当然也可以在最上面的搜索框内直接搜索show line
+numbers，可以直接检索出该选项，恩，这个功能也是蛮吊的。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:SimSun&quot;&gt;&lt;a href=&quot;http://photo.blog.sina.com.cn/showpic.html#blogid=68793f6a0102w6x3&amp;url=http://album.sina.com.cn/pic/001UCtfAgy6WRUcwCCNfd&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://s14.sinaimg.cn/mw690/001UCtfAgy6WRUcwCCNfd&amp;690&quot; alt=&quot;PhpStorm默认显示行号&quot; title=&quot;PhpStorm默认显示行号&quot; width=&quot;690&quot; height=&quot;487&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','2017-05-10 10:12:50') [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-05-10T10:12:51+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/addArticle?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-05-10T10:12:53+08:00 ] 221.214.73.106 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-05-10T10:16:41+08:00 ] 221.214.73.106 /mali/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2017-05-10T10:16:43+08:00 ] 221.214.73.106 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2017-05-10T10:16:48+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/addArticle?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-05-10T10:22:21+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/addArticle?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-05-10T10:33:24+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/doAddArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/default/mali/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/default/mali/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`article_title`,`article_type_id`,`article_content`,`article_addtime`) VALUES ('TP 页面跳转success 和 error ','4','&lt;p&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;TP&amp;nbsp;系统的\\Think\\Controller类内置了两个跳转方法success和error，用于页面跳转提示，而且可以支持ajax提交。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&amp;#39;宋体&amp;#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$User &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;= M(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;User&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;); &lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//实例化User对象&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$result &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$User&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;-&amp;gt;add(&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$data&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;);&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#000080;background-color:#f7faff;font-weight:bold;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$result&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;){&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//设置成功后跳转页面的地址，默认的返回页面是$_SERVER[&amp;#39;HTTP_REFERER&amp;#39;]&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;-&amp;gt;success(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;新增成功&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;User/list&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;);&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;} &lt;/span&gt;&lt;span style=&quot;color:#000080;background-color:#f7faff;font-weight:bold;&quot;&gt;else &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;{&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//错误页面的默认跳转页面是返回前一页，通常不需要设置&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;-&amp;gt;error(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;新增失败&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;);&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;}&lt;br/&gt;&lt;br/&gt;success和error方法的第一个参数表示提示信息，第二个参数表示跳转地址，第三个参数是跳转时间（单位为秒），例如：&lt;br/&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&amp;#39;宋体&amp;#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;// 操作完成3秒后跳转到 /Article/index &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;-&amp;gt;success(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;操作完成&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;/Article/index&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#0000ff;background-color:#f7faff;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;);&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;// 操作失败5秒后跳转到 /Article/error &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;-&amp;gt;error(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;操作失败&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;/Article/error&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#0000ff;background-color:#f7faff;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;跳转地址是可选的，success方法的默认跳转地址是&lt;/span&gt;&lt;code style=&quot;font-family:Consolas,&amp;#39;Liberation Mono&amp;#39;,Courier,微软雅黑; color:rgb(199,37,78); padding:2px 4px; margin:0px 2px; white-space:nowrap; font-size:16px; line-height:27.2000007629395px; background-color:rgb(249,242,244)&quot;&gt;$_SERVER[&amp;quot;HTTP_REFERER&amp;quot;]&lt;/code&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;，error方法的默认跳转地址是&lt;/span&gt;&lt;code style=&quot;font-family:Consolas,&amp;#39;Liberation Mono&amp;#39;,Courier,微软雅黑; color:rgb(199,37,78); padding:2px 4px; margin:0px 2px; white-space:nowrap; font-size:16px; line-height:27.2000007629395px; background-color:rgb(249,242,244)&quot;&gt;javascript:history.back(-1);&lt;/code&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color:rgb(3,130,173); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px; background-color:rgb(240,247,253)&quot;&gt;默认的等待时间success方法是1秒，error方法是3秒&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;&lt;code style=&quot;font-family:Consolas,&amp;#39;Liberation Mono&amp;#39;,Courier,微软雅黑; color:rgb(199,37,78); padding:2px 4px; margin:0px 2px; white-space:nowrap; font-size:16px; line-height:27.2000007629395px; background-color:rgb(249,242,244)&quot;&gt;success&lt;/code&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;和&lt;/span&gt;&lt;code style=&quot;font-family:Consolas,&amp;#39;Liberation Mono&amp;#39;,Courier,微软雅黑; color:rgb(199,37,78); padding:2px 4px; margin:0px 2px; white-space:nowrap; font-size:16px; line-height:27.2000007629395px; background-color:rgb(249,242,244)&quot;&gt;error&lt;/code&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;方法都可以对应的模板，默认的设置是两个方法对应的模板都是：&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&amp;#39;宋体&amp;#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//默认错误跳转对应的模板文件 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;TMPL_ACTION_ERROR&amp;#39; &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;=&amp;gt; &lt;/span&gt;&lt;span style=&quot;color:#660e7a;background-color:#f7faff;font-weight:bold;font-style:italic;&quot;&gt;THINK_PATH &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;. &lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;Tpl/dispatch_jump.tpl&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;, &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//默认成功跳转对应的模板文件 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;TMPL_ACTION_SUCCESS&amp;#39; &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;=&amp;gt; &lt;/span&gt;&lt;span style=&quot;color:#660e7a;background-color:#f7faff;font-weight:bold;font-style:italic;&quot;&gt;THINK_PATH &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;. &lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;Tpl/dispatch_jump.tpl&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;, &amp;nbsp;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;也可以使用项目内部的模板文件&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&amp;#39;宋体&amp;#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//默认错误跳转对应的模板文件 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;TMPL_ACTION_ERROR&amp;#39; &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;=&amp;gt; &lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;Public:error&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;; &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//默认成功跳转对应的模板文件 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;TMPL_ACTION_SUCCESS&amp;#39; &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;=&amp;gt; &lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;Public:success&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;; &amp;nbsp;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;success和error方法会自动判断当前请求是否属于Ajax请求，如果属于Ajax请求则会调用ajaxReturn方法返回信息。 ajax方式下面，success和error方法会封装下面的数据返回：&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&amp;#39;宋体&amp;#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$data&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;info&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;] &amp;nbsp; = &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$message&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;// 提示信息内容 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$data&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;status&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;] = &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$status&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;// 状态 如果是success是1 error 是0 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$data&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;url&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;] &amp;nbsp; &amp;nbsp;= &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$jumpUrl&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;// 成功或者错误的跳转地址 &amp;nbsp;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;重定向&lt;br/&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;Controller类的redirect方法可以实现页面的重定向功能。&lt;/span&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;redirect方法的参数用法和U函数的用法一致（参考&lt;/span&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://document.thinkphp.cn/manual_3_2.html#url_build&quot; style=&quot;color:rgb(0,128,0); text-decoration:none; font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;URL生成&lt;/a&gt;&lt;span style=&quot;color:rgb(64,64,64); font-family:微软雅黑; font-size:16px; line-height:27.2000007629395px&quot;&gt;部分），例如：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&amp;#39;宋体&amp;#39;;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#808080;background-color:#f7faff;font-style:italic;&quot;&gt;//重定向到New模块的Category操作 &amp;nbsp;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color:#660000;background-color:#f7faff;&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;-&amp;gt;redirect(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;New/category&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color:#000080;background-color:#f7faff;font-weight:bold;&quot;&gt;array&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;cate_id&amp;#39; &lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;=&amp;gt; &lt;/span&gt;&lt;span style=&quot;color:#0000ff;background-color:#f7faff;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;), &lt;/span&gt;&lt;span style=&quot;color:#0000ff;background-color:#f7faff;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color:#008000;background-color:#f7faff;font-weight:bold;&quot;&gt;&amp;#39;页面跳转中...&amp;#39;&lt;/span&gt;&lt;span style=&quot;background-color:#f7faff;&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;&lt;br/&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','2017-05-10 10:33:24') [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-05-10T10:33:25+08:00 ] 221.214.73.106 /mali/index.php/Admin/Article/addArticle?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-05-10T10:39:23+08:00 ] 221.214.73.106 /mali/index.php/Admin/Index/addType
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/mali/Mali/Admin/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type` ORDER BY concat(type_path,type_id)  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined variable: type_pid /data/wwwroot/default/mali/Mali/Runtime/Cache/Admin/b47814478de9055de635657bd1ecf326.php 第 752 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-05-10T10:54:52+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/MyFootstepsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-05-10T10:54:52+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/pageCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-10T10:54:52+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/showInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `my_footsteps`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-05-10T10:54:59+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/page?num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `my_footsteps` LIMIT 15,15   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2017-05-10T10:55:02+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/page?num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `my_footsteps` LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-05-10T10:55:03+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/page?num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `my_footsteps` LIMIT 0,15   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-05-10T10:55:04+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/page?num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `my_footsteps` LIMIT 15,15   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-05-10T10:55:07+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/page?num=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `my_footsteps` LIMIT 30,15   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-05-10T10:55:10+08:00 ] 221.214.73.106 /mali/index.php/Admin/MyFootsteps/page?num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `my_footsteps` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_footsteps` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `my_footsteps` LIMIT 0,15   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
