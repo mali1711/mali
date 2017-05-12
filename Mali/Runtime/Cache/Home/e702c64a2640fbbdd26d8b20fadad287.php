@@ -67,12 +67,66 @@
                         <li><a href="#">给我留言</a></li>
                         <li role="separator" class="divider">查看所有的留言</li>
                         <li><a href="#">其他</a></li>
-                        <li><a href="/mali/index.php/Admin">转入后台</a></li>
+                        <!--<li><a href="/mali/index.php/Admin" data-target="#myModal">转入后台</a></li>-->
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">转入后台</a></li>
                     </ul>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
+
+    <h2>创建模态框（Modal）</h2>
+    <!-- 按钮触发模态框 -->
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">转入后台请先登录</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">名字</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="firstname" placeholder="请输入名字">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-2 control-label">姓</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="lastname" placeholder="请输入姓">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">请记住我
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">登录</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">提交更改</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
 </nav>
     <div class="row"><div class="text-center">知识点列表</div></div>
 <!--    <img style="width: 80px;" src="./images/d33a00e9ce1e8e9e5504b5e060ba5b52.jpg" class="img-circle">-->

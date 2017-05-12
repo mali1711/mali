@@ -2,6 +2,15 @@
 namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends Controller {
+
+    public function __construct()
+    {
+        parent::__construct();
+        if(!$_SESSION['users_info']['users_status']==1){
+            $this->error('您现在没有权限',U('Home/Index/index'));
+        }
+    }
+
     public function index()
     {
         $this->display("Index/index");

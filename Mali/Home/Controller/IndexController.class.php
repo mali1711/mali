@@ -40,6 +40,7 @@ class IndexController extends Controller {
     public function doRegister()
     {
         $User = D("Users"); // 实例化User对象
+        $_POST['users_status']= 0;
         if (!$User->create()){
             // 如果创建失败 表示验证没有通过 输出错误提示信息
             $this->error($User->getError());
@@ -122,5 +123,33 @@ class IndexController extends Controller {
         $list['article_content'] = htmlspecialchars_decode($list['article_content']);
         $this->assign('list',$list);
         $this->display('Index/KnowledgeDetail');
+    }
+
+    /*
+     * 跳转后台
+     * */
+    public function JumpAdmin()
+    {
+        $table = 'users';
+        $_POST['users_pass'] = md5(I('post.users_pass'));
+        $_POST['status'] = 1;
+//        判断用户输入内容是否存在当前表中
+        $res = $this->__emptyUsers($table,$_POST);
+        if(!empty($res)){
+            $_SESSION['users_info'] = $res;
+            $this->success('恭喜你登录成功',U('Admin/Index/index'));
+        }else{
+            die;
+            $this->error('您输入有误，登录失败');
+        }
+    }
+
+    /*
+     * 判断用户是否存在
+     * */
+    private function __emptyUsers($table,$data){
+        $users = M($table);
+        $res = $users->where($data)->select();
+        return $res['0'];
     }
 }

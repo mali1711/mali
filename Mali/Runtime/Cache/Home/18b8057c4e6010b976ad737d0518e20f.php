@@ -67,12 +67,61 @@
                         <li><a href="#">给我留言</a></li>
                         <li role="separator" class="divider">查看所有的留言</li>
                         <li><a href="#">其他</a></li>
-                        <li><a href="/mali/index.php/Admin">转入后台</a></li>
+                        <!--<li><a href="/mali/index.php/Admin" data-target="#myModal">转入后台</a></li>-->
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">转入后台</a></li>
                     </ul>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">转入后台请先登录</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form class="form-horizontal" role="form" action="/mali/index.php/Home/Index/JumpAdmin" method="post">
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">账号</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="users_name" class="form-control" id="firstname" placeholder="请输入账号">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="users_pass" id="lastname" placeholder="请输入密码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">请记住我
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary">登录</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
 </nav>
     <div class="jumbotron">
         <h2>你好，欢迎来到我的游戏页</h2>

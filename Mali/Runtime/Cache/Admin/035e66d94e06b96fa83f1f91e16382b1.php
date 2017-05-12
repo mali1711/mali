@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>jq网格 - 素材火 Admin</title>
+    <title>后台操作</title>
 
     <meta name="description" content="Dynamic tables and grids using jqGrid plugin" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

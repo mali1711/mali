@@ -94,12 +94,61 @@
                         <li><a href="#">给我留言</a></li>
                         <li role="separator" class="divider">查看所有的留言</li>
                         <li><a href="#">其他</a></li>
-                        <li><a href="/mali/index.php/Admin">转入后台</a></li>
+                        <!--<li><a href="/mali/index.php/Admin" data-target="#myModal">转入后台</a></li>-->
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">转入后台</a></li>
                     </ul>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">转入后台请先登录</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form class="form-horizontal" role="form" action="/mali/index.php/Home/Index/JumpAdmin" method="post">
+                        <div class="form-group">
+                            <label for="firstname" class="col-sm-2 control-label">账号</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="users_name" class="form-control" id="firstname" placeholder="请输入账号">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" name="users_pass" id="lastname" placeholder="请输入密码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">请记住我
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary">登录</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
 </nav>
     <!--导航条end-->
     <h3 class="default text-center">欢迎来到<strong class="danger primary">贱贱</strong>的个人网站</h3>
@@ -301,6 +350,28 @@
         </nav>
     </div>-->
 </div>
+<!--  模态框的使用 -->
+
+<h2>创建模态框（Modal）</h2>
+<!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+            </div>
+            <div class="modal-body">在这里添加一些文本</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">提交更改</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
 <script type="text/javascript">
     $.ajax({
      url:"/mali/index.php/Home/Message/index",
