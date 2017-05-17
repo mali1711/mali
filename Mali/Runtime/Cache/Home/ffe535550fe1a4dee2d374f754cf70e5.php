@@ -94,7 +94,7 @@
                         <div class="form-group">
                             <label for="lastname" class="col-sm-2 control-label">密码</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="users_pass" id="lastname" placeholder="请输入密码">
+                                <input type="password" class="form-control" name="users_pass" id="lastname" placeholder="请输入密码">
                             </div>
                         </div>
                         <div class="form-group">

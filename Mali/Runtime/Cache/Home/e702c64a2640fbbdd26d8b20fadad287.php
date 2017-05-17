@@ -74,10 +74,6 @@
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-
-    <h2>创建模态框（Modal）</h2>
-    <!-- 按钮触发模态框 -->
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>
     <!-- 模态框（Modal） -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -88,17 +84,17 @@
                 </div>
                 <div class="modal-body">
 
-                    <form class="form-horizontal" role="form">
+                    <form class="form-horizontal" role="form" action="/mali/index.php/Home/Index/JumpAdmin" method="post">
                         <div class="form-group">
-                            <label for="firstname" class="col-sm-2 control-label">名字</label>
+                            <label for="firstname" class="col-sm-2 control-label">账号</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="firstname" placeholder="请输入名字">
+                                <input type="text" name="users_name" class="form-control" id="firstname" placeholder="请输入账号">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="lastname" class="col-sm-2 control-label">姓</label>
+                            <label for="lastname" class="col-sm-2 control-label">密码</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="lastname" placeholder="请输入姓">
+                                <input type="password" class="form-control" name="users_pass" id="lastname" placeholder="请输入密码">
                             </div>
                         </div>
                         <div class="form-group">
@@ -112,7 +108,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default">登录</button>
+                                <button type="submit" class="btn btn-primary">登录</button>
                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
                             </div>
                         </div>
@@ -120,8 +116,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                    <button type="button" class="btn btn-primary">提交更改</button>
+
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal -->

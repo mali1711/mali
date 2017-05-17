@@ -66,9 +66,9 @@
                 <li class="active"><a href="/mali/index.php/Home/MyFootPrint/index/">我的足迹 <span class="sr-only">(current)</span></a></li>
                 <li><a href="/mali/index.php/Home/index/myGame">我的游戏</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">开发工具<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">加密文件<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">phpStrom软件</a></li>
+                        <li><a href="#">一生</a></li>
                         <li><a href="#">xshell和xftp</a></li>
                         <li><a href="#">...</a></li>
                         <li role="separator" class="divider">...</li>
@@ -228,7 +228,7 @@
         <div class="col-xs-6 col-sm-3">
             <div class="panel panel-danger">
                 <div class="panel-heading">
-                    <h3 class="panel-title">学习</h3>
+                    <h3 class="panel-title">生活</h3>
                 </div>
                 <div class="panel-body h328">
                     <div class="thumbnail">
@@ -331,7 +331,7 @@
 
             </form></div>
         <div class="col-xs-6 col-sm-12">
-            <h3> <a href="">点击查看更多留言</a></h3>
+            <h3> <a href="">点击查看更多</a></h3>
         </div>
 
     </div>
@@ -349,27 +349,6 @@
             </div>
         </nav>
     </div>-->
-</div>
-<!--  模态框的使用 -->
-
-<h2>创建模态框（Modal）</h2>
-<!-- 按钮触发模态框 -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>
-<!-- 模态框（Modal） -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
-            </div>
-            <div class="modal-body">在这里添加一些文本</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary">提交更改</button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
 </div>
 
 <script type="text/javascript">
